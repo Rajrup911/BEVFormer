@@ -262,5 +262,6 @@ def main():
             print(dataset.evaluate(outputs, **eval_kwargs))
 
 
-if __name__ == '__main__':
+if name == 'main':
+    torch.multiprocessing.set_start_method('fork')
     main()
