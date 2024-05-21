@@ -67,6 +67,8 @@ def custom_multi_gpu_test(model, data_loader, tmpdir=None, gpu_collect=False):
         prog_bar = mmcv.ProgressBar(len(dataset))
     time.sleep(2)  # This line can prevent deadlock problem in some cases.
     have_mask = False
+    
+    repetitions = 100
     for i, data in enumerate(data_loader):
         with torch.no_grad():
             result = model(return_loss=False, rescale=True, **data)
@@ -111,7 +113,41 @@ def custom_multi_gpu_test(model, data_loader, tmpdir=None, gpu_collect=False):
     if mask_results is None:
         return bbox_results
     return {'bbox_results': bbox_results, 'mask_results': mask_results}
+    
+def custom_multi_gpu_test2(model, data_loader, tmpdir=None, gpu_collect=False):
+    model.eval()
+    bbox_results = []
+    mask_results = []
+    dataset = data_loader.dataset
+    rank, world_size = get_dist_info()
+    if rank == 0:
+        prog_bar = mmcv.ProgressBar(len(dataset))
+    time.sleep(2)  # This line can prevent deadlock problem in some cases.
+    have_mask = False
 
+    repetitions = 100
+    for i, data in enumerate(data_loader):
+        with torch.no_grad():
+            inputs = {} 
+            inputs['img'] = data['img'][0].data[0].float().unsqueeze(0)
+            inputs['img_metas'] = [[None]]
+            inputs['img_metas'][0][0] = {}
+
+            inputs['img_metas'][0][0]['can_bus'] = torch.from_numpy(np.array(data['img_metas'][0].data[0][0]['can_bus'])).float()
+            inputs['img_metas'][0][0]['lidar2img'] = torch.from_numpy(np.array(data['img_metas'][0].data[0][0]['lidar2img'])).float()
+            inputs['img_metas'][0][0]['scene_token'] = 'fcbccedd61424f1b85dcbf8f897f9754'
+            inputs['img_metas'][0][0]['img_shape'] = torch.Tensor([[480, 800]])
+            
+            torch.onnx.export(
+                model, 
+                tuple([inputs['img_metas'], inputs['img']]), 
+                "bfv.onnx", 
+                export_params=True, 
+                keep_initializers_as_inputs=True, 
+                do_constant_folding=False,
+                verbose=True,
+                opset_version=16,
+            )
 
 def collect_results_cpu(result_part, size, tmpdir=None):
     rank, world_size = get_dist_info()

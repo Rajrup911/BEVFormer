@@ -140,8 +140,8 @@ class BEVFormer(MVXTwoStageDetector):
         dummy_metas = None
         return self.forward_test(img=img, img_metas=[[dummy_metas]])
 
-    def forward(self, return_loss=True, **kwargs):
-        """Calls either forward_train or forward_test depending on whether
+    def forward(self, img_metas, img, return_loss=True):
+        '''Calls either forward_train or forward_test depending on whether
         return_loss=True.
         Note this setting will change the expected inputs. When
         `return_loss=True`, img and img_metas are single-nested (i.e.
@@ -149,11 +149,11 @@ class BEVFormer(MVXTwoStageDetector):
         img_metas should be double nested (i.e.  list[torch.Tensor],
         list[list[dict]]), with the outer list indicating test time
         augmentations.
-        """
         if return_loss:
             return self.forward_train(**kwargs)
         else:
-            return self.forward_test(**kwargs)
+        '''
+        return self.forward_test(img_metas, img)
     
     def obtain_history_bev(self, imgs_queue, img_metas_list):
         """Obtain history BEV features iteratively. To save GPU memory, gradients are not calculated.
@@ -233,7 +233,7 @@ class BEVFormer(MVXTwoStageDetector):
         losses.update(losses_pts)
         return losses
 
-    def forward_test(self, img_metas, img=None, **kwargs):
+    def forward_test(self, img_metas, img=None):
         for var, name in [(img_metas, 'img_metas')]:
             if not isinstance(var, list):
                 raise TypeError('{} must be a list, but got {}'.format(
@@ -251,8 +251,8 @@ class BEVFormer(MVXTwoStageDetector):
             self.prev_frame_info['prev_bev'] = None
 
         # Get the delta of ego position and angle between two timestamps.
-        tmp_pos = copy.deepcopy(img_metas[0][0]['can_bus'][:3])
-        tmp_angle = copy.deepcopy(img_metas[0][0]['can_bus'][-1])
+        #tmp_pos = copy.deepcopy(img_metas[0][0]['can_bus'][:3])
+        #tmp_angle = copy.deepcopy(img_metas[0][0]['can_bus'][-1])
         if self.prev_frame_info['prev_bev'] is not None:
             img_metas[0][0]['can_bus'][:3] -= self.prev_frame_info['prev_pos']
             img_metas[0][0]['can_bus'][-1] -= self.prev_frame_info['prev_angle']
@@ -261,10 +261,10 @@ class BEVFormer(MVXTwoStageDetector):
             img_metas[0][0]['can_bus'][:3] = 0
 
         new_prev_bev, bbox_results = self.simple_test(
-            img_metas[0], img[0], prev_bev=self.prev_frame_info['prev_bev'], **kwargs)
+            img_metas[0], img[0], prev_bev=self.prev_frame_info['prev_bev'])
         # During inference, we save the BEV features and ego motion of each timestamp.
-        self.prev_frame_info['prev_pos'] = tmp_pos
-        self.prev_frame_info['prev_angle'] = tmp_angle
+        #self.prev_frame_info['prev_pos'] = tmp_pos
+        #self.prev_frame_info['prev_angle'] = tmp_angle
         self.prev_frame_info['prev_bev'] = new_prev_bev
         return bbox_results
 

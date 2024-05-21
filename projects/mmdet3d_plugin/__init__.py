@@ -8,4 +8,4 @@ from .datasets.pipelines import (
 from .models.utils import *
 from .models.opt.adamw import AdamW2
 from .bevformer import *
-from .dd3d import *
+#from .dd3d import *

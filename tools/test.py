@@ -19,7 +19,7 @@ from mmdet3d.datasets import build_dataset
 from projects.mmdet3d_plugin.datasets.builder import build_dataloader
 from mmdet3d.models import build_model
 from mmdet.apis import set_random_seed
-from projects.mmdet3d_plugin.bevformer.apis.test import custom_multi_gpu_test
+from projects.mmdet3d_plugin.bevformer.apis.test import custom_multi_gpu_test, custom_multi_gpu_test2
 from mmdet.datasets import replace_ImageToTensor
 import time
 import os.path as osp
@@ -46,6 +46,7 @@ def parse_args():
         '--eval',
         type=str,
         nargs='+',
+        default='bbox',
         help='evaluation metrics, which depends on the dataset, e.g., "bbox",'
         ' "segm", "proposal" for COCO, and "mAP", "recall" for PASCAL VOC')
     parser.add_argument('--show', action='store_true', help='show results')
@@ -90,7 +91,7 @@ def parse_args():
     parser.add_argument(
         '--launcher',
         choices=['none', 'pytorch', 'slurm', 'mpi'],
-        default='none',
+        default='pytorch',
         help='job launcher')
     parser.add_argument('--local_rank', type=int, default=0)
     args = parser.parse_args()
@@ -182,11 +183,13 @@ def main():
                 ds_cfg.pipeline = replace_ImageToTensor(ds_cfg.pipeline)
 
     # init distributed env first, since logger depends on the dist info.
+    '''
     if args.launcher == 'none':
         distributed = False
     else:
         distributed = True
         init_dist(args.launcher, **cfg.dist_params)
+    '''
 
     # set random seeds
     if args.seed is not None:
@@ -198,7 +201,6 @@ def main():
         dataset,
         samples_per_gpu=samples_per_gpu,
         workers_per_gpu=cfg.data.workers_per_gpu,
-        dist=distributed,
         shuffle=False,
         nonshuffler_sampler=cfg.data.nonshuffler_sampler,
     )
@@ -224,17 +226,16 @@ def main():
     elif hasattr(dataset, 'PALETTE'):
         # segmentation dataset has `PALETTE` attribute
         model.PALETTE = dataset.PALETTE
-
-    if not distributed:
-        assert False
-        # model = MMDataParallel(model, device_ids=[0])
-        # outputs = single_gpu_test(model, data_loader, args.show, args.show_dir)
+        
     else:
+        '''
         model = MMDistributedDataParallel(
             model.cuda(),
             device_ids=[torch.cuda.current_device()],
             broadcast_buffers=False)
-        outputs = custom_multi_gpu_test(model, data_loader, args.tmpdir,
+        '''
+        
+    outputs = custom_multi_gpu_test2(model, data_loader, args.tmpdir,
                                         args.gpu_collect)
 
     rank, _ = get_dist_info()
@@ -262,6 +263,6 @@ def main():
             print(dataset.evaluate(outputs, **eval_kwargs))
 
 
-if name == 'main':
+if __name__ == '__main__':
     torch.multiprocessing.set_start_method('fork')
     main()

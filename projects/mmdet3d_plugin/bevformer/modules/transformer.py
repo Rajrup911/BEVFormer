@@ -120,25 +120,32 @@ class PerceptionTransformer(BaseModule):
         bev_pos = bev_pos.flatten(2).permute(2, 0, 1)
 
         # obtain rotation angle and shift with ego motion
-        delta_x = np.array([each['can_bus'][0]
+        delta_x = np.array([each['can_bus'][0].cpu().numpy()
                            for each in kwargs['img_metas']])
-        delta_y = np.array([each['can_bus'][1]
+        delta_x = torch.from_numpy(delta_x)
+        
+        delta_y = np.array([each['can_bus'][1].cpu().numpy()
                            for each in kwargs['img_metas']])
+        delta_y = torch.from_numpy(delta_y)
+        
         ego_angle = np.array(
             [each['can_bus'][-2] / np.pi * 180 for each in kwargs['img_metas']])
+        ego_angle = torch.from_numpy(ego_angle.astype(np.float32))
+        
         grid_length_y = grid_length[0]
         grid_length_x = grid_length[1]
-        translation_length = np.sqrt(delta_x ** 2 + delta_y ** 2)
-        translation_angle = np.arctan2(delta_y, delta_x) / np.pi * 180
+        translation_length = torch.sqrt(delta_x ** 2 + delta_y ** 2)
+        
+        translation_angle = torch.atan(delta_y / (delta_x + 1e-6)) / np.pi * 180 ##need change
+        
         bev_angle = ego_angle - translation_angle
         shift_y = translation_length * \
-            np.cos(bev_angle / 180 * np.pi) / grid_length_y / bev_h
+            torch.cos(bev_angle / 180 * np.pi) / grid_length_y / bev_h
         shift_x = translation_length * \
-            np.sin(bev_angle / 180 * np.pi) / grid_length_x / bev_w
+            torch.sin(bev_angle / 180 * np.pi) / grid_length_x / bev_w
         shift_y = shift_y * self.use_shift
         shift_x = shift_x * self.use_shift
-        shift = bev_queries.new_tensor(
-            [shift_x, shift_y]).permute(1, 0)  # xy, bs -> bs, xy
+        shift = torch.stack([shift_x, shift_y]).permute(1, 0)  # xy, bs -> bs, xy
 
         if prev_bev is not None:
             if prev_bev.shape[1] == bev_h * bev_w:
@@ -157,9 +164,9 @@ class PerceptionTransformer(BaseModule):
 
         # add can bus signals
         can_bus = bev_queries.new_tensor(
-            [each['can_bus'] for each in kwargs['img_metas']])  # [:, :]
+            [each['can_bus'].cpu().numpy() for each in kwargs['img_metas']])  # [:, :]
         can_bus = self.can_bus_mlp(can_bus)[None, :, :]
-        bev_queries = bev_queries + can_bus * self.use_can_bus
+        #bev_queries = bev_queries + can_bus * self.use_can_bus
 
         feat_flatten = []
         spatial_shapes = []
