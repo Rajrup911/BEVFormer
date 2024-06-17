@@ -1,5 +1,25 @@
 import torch 
 
+def onnx_atan2(y, x):
+    # Create a pi tensor with the same device and data type as y
+    pi = torch.tensor(torch.pi, device=y.device, dtype=y.dtype)
+    half_pi = pi / 2
+    eps = 1e-6
+
+    # Compute the arctangent of y/x
+    ans = torch.atan(y / (x + eps))
+
+    # Create boolean tensors representing positive, negative, and zero values of y and x
+    y_positive = y > 0
+    y_negative = y < 0
+    x_negative = x < 0
+    x_zero = x == 0
+
+    # Adjust ans based on the positive, negative, and zero values of y and x
+    ans += torch.where(y_positive & x_negative, pi, torch.zeros_like(ans))  # Quadrants I and II
+    ans -= torch.where(y_negative & x_negative, pi, torch.zeros_like(ans))  # Quadrants III and IV
+    ans = torch.where(y_positive & x_zero, half_pi, ans)  # Positive y-axis
+    ans = torch.where(y_negative & x_zero, -half_pi, ans) 
 
 def normalize_bbox(bboxes, pc_range):
 
@@ -28,7 +48,7 @@ def denormalize_bbox(normalized_bboxes, pc_range):
     rot_sine = normalized_bboxes[..., 6:7]
 
     rot_cosine = normalized_bboxes[..., 7:8]
-    rot = torch.atan(rot_sine / (rot_cosine + 1e-6))
+    rot = torch.atan2(rot_sine, rot_cosine)
 
     # center in the bev
     cx = normalized_bboxes[..., 0:1]

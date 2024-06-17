@@ -136,24 +136,25 @@ class SpatialCrossAttention(BaseModule):
         D = reference_points_cam.size(3)
         indexes = []
         for i, mask_per_img in enumerate(bev_mask):
-            index_query_per_img = mask_per_img[0].sum(-1).nonzero().squeeze(-1)
+            index_query_per_img = torch.topk(mask_per_img[0].sum(-1), 900, largest=True).indices #changed to convert dynamic nodes to static
+            #index_query_per_img = mask_per_img[0].sum(-1).nonzero().squeeze(-1)
             indexes.append(index_query_per_img)
-        max_len = max([len(each) for each in indexes])
+
+        max_len = max([each.shape[0] for each in indexes])
 
         # each camera only interacts with its corresponding BEV queries. This step can  greatly save GPU memory.
         queries_rebatch = query.new_zeros(
             [bs, self.num_cams, max_len, self.embed_dims])
         reference_points_rebatch = reference_points_cam.new_zeros(
             [bs, self.num_cams, max_len, D, 2])
-        
+
         for j in range(bs):
             for i, reference_points_per_img in enumerate(reference_points_cam):   
                 index_query_per_img = indexes[i]
-                queries_rebatch[j, i, :len(index_query_per_img)] = query[j, index_query_per_img]
-                reference_points_rebatch[j, i, :len(index_query_per_img)] = reference_points_per_img[j, index_query_per_img]
+                queries_rebatch[j, i, :index_query_per_img.shape[0]] = query[j, index_query_per_img]
+                reference_points_rebatch[j, i, :index_query_per_img.shape[0]] = reference_points_per_img[j, index_query_per_img]
 
         num_cams, l, bs, embed_dims = key.shape
-
         key = key.permute(2, 0, 1, 3).reshape(
             bs * self.num_cams, l, self.embed_dims)
         value = value.permute(2, 0, 1, 3).reshape(
@@ -164,7 +165,7 @@ class SpatialCrossAttention(BaseModule):
                                             level_start_index=level_start_index).view(bs, self.num_cams, max_len, self.embed_dims)
         for j in range(bs):
             for i, index_query_per_img in enumerate(indexes):
-                slots[j, index_query_per_img] += queries[j, i, :len(index_query_per_img)]
+                slots[j, index_query_per_img] += queries[j, i, :index_query_per_img.shape[0]]
 
         count = bev_mask.sum(-1) > 0
         count = count.permute(1, 2, 0).sum(-1)

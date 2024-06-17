@@ -8,6 +8,7 @@ import mmcv
 import os
 import torch
 import warnings
+import numpy as np
 from mmcv import Config, DictAction
 from mmcv.cnn import fuse_conv_bn
 from mmcv.parallel import MMDataParallel, MMDistributedDataParallel
@@ -19,10 +20,12 @@ from mmdet3d.datasets import build_dataset
 from projects.mmdet3d_plugin.datasets.builder import build_dataloader
 from mmdet3d.models import build_model
 from mmdet.apis import set_random_seed
-from projects.mmdet3d_plugin.bevformer.apis.test import custom_multi_gpu_test, custom_multi_gpu_test2
+from projects.mmdet3d_plugin.bevformer.apis.test import custom_multi_gpu_test
 from mmdet.datasets import replace_ImageToTensor
 import time
 import os.path as osp
+import onnx
+import onnxsim
 
 
 def parse_args():
@@ -46,7 +49,6 @@ def parse_args():
         '--eval',
         type=str,
         nargs='+',
-        default='bbox',
         help='evaluation metrics, which depends on the dataset, e.g., "bbox",'
         ' "segm", "proposal" for COCO, and "mAP", "recall" for PASCAL VOC')
     parser.add_argument('--show', action='store_true', help='show results')
@@ -91,7 +93,7 @@ def parse_args():
     parser.add_argument(
         '--launcher',
         choices=['none', 'pytorch', 'slurm', 'mpi'],
-        default='pytorch',
+        default='none',
         help='job launcher')
     parser.add_argument('--local_rank', type=int, default=0)
     args = parser.parse_args()
@@ -183,13 +185,11 @@ def main():
                 ds_cfg.pipeline = replace_ImageToTensor(ds_cfg.pipeline)
 
     # init distributed env first, since logger depends on the dist info.
-    '''
     if args.launcher == 'none':
         distributed = False
     else:
         distributed = True
         init_dist(args.launcher, **cfg.dist_params)
-    '''
 
     # set random seeds
     if args.seed is not None:
@@ -201,6 +201,7 @@ def main():
         dataset,
         samples_per_gpu=samples_per_gpu,
         workers_per_gpu=cfg.data.workers_per_gpu,
+        dist=distributed,
         shuffle=False,
         nonshuffler_sampler=cfg.data.nonshuffler_sampler,
     )
@@ -226,18 +227,61 @@ def main():
     elif hasattr(dataset, 'PALETTE'):
         # segmentation dataset has `PALETTE` attribute
         model.PALETTE = dataset.PALETTE
-        
-    else:
-        '''
-        model = MMDistributedDataParallel(
-            model.cuda(),
-            device_ids=[torch.cuda.current_device()],
-            broadcast_buffers=False)
-        '''
-        
-    outputs = custom_multi_gpu_test2(model, data_loader, args.tmpdir,
-                                        args.gpu_collect)
 
+    if cfg.model.onnx_export:
+        #Onnx Export initialization
+        for i, data in enumerate(data_loader):
+            with torch.no_grad():
+                img = data['img'][0].data[0].float().unsqueeze(0)
+                can_bus = torch.from_numpy(np.array(data['img_metas'][0].data[0][0]['can_bus'])).float()
+                lidar2img = torch.from_numpy(np.array(data['img_metas'][0].data[0][0]['lidar2img'])).float()
+                prev_bev = torch.zeros(2500, 1, 256)
+                break
+        print('Exporting Model with Prev-Bev')
+        torch.onnx.export(
+            model, 
+            (img, can_bus, lidar2img, prev_bev),
+            cfg.model.export_path + "bfv_prev_bev.onnx", 
+            export_params=True, 
+            input_names = ['img', 'can_bus', 'lidar2img', 'prev_bev'],
+            verbose=True,
+            opset_version=16,
+        )
+        print('Exporting Finished!! \nStarting Simplification')
+        onnx_model = onnx.load(cfg.model.export_path + "bfv_prev_bev.onnx")
+        onnx_model, check = onnxsim.simplify(onnx_model)
+        onnx.save(onnx_model, cfg.model.export_path + "bfv_prev_bev-SIM.onnx")
+        print("Simplification Finished!!")
+
+        print('Exporting Model without Prev-Bev')
+        torch.onnx.export(
+            model, 
+            (img, can_bus, lidar2img),
+            cfg.model.export_path + "bfv_wo_prev_bev.onnx", 
+            export_params=True, 
+            input_names = ['img', 'can_bus', 'lidar2img'],
+            verbose=True,
+            opset_version=16,
+        )
+        print('Exporting Finished!! \nStarting Simplification')
+        onnx_model = onnx.load(cfg.model.export_path + "bfv_wo_prev_bev.onnx")
+        onnx_model, check = onnxsim.simplify(onnx_model)
+        onnx.save(onnx_model, cfg.model.export_path + "bfv_wo_prev_bev-SIM.onnx")
+        print("Simplification Finished!!")
+        exit()
+    else:
+        if not distributed:
+            assert False
+            # model = MMDataParallel(model, device_ids=[0])
+            # outputs = single_gpu_test(model, data_loader, args.show, args.show_dir)
+        else:
+            model = MMDistributedDataParallel(
+                model.cuda(),
+                device_ids=[torch.cuda.current_device()],
+                broadcast_buffers=False)
+            outputs = custom_multi_gpu_test(model, data_loader, args.tmpdir,
+                                            args.gpu_collect)
+    
     rank, _ = get_dist_info()
     if rank == 0:
         if args.out:
@@ -264,5 +308,5 @@ def main():
 
 
 if __name__ == '__main__':
-    torch.multiprocessing.set_start_method('fork')
+    # torch.multiprocessing.set_start_method('fork')s
     main()

@@ -1,0 +1,1253 @@
+pytorch1.12.0:»’
+‰
+
+angleonnx::Mul_4Neg_29"Neg2¿
+rotate.py(53): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+˜
+
+onnx::Mul_4
+onnx::Mul_5onnx::Sub_6Mul_31"Mul2¿
+rotate.py(53): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+Í
+
+onnx::Sub_6onnx::Div_9Cos_34"Cos2¿
+rotate.py(66): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+Î
+
+onnx::Div_9onnx::Mul_15Neg_40"Neg2¿
+rotate.py(67): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+˙
+
+onnx::Mul_15
+onnx::Mul_16onnx::Div_17Mul_42"Mul2¿
+rotate.py(67): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+Î
+
+onnx::Sub_6onnx::Sub_20Sin_45"Sin2¿
+rotate.py(67): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+˙
+
+onnx::Div_17
+onnx::Sub_20onnx::Neg_21Sub_46"Sub2¿
+rotate.py(67): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+Ï
+
+onnx::Sub_20onnx::Mul_30Neg_55"Neg2¿
+rotate.py(69): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+˙
+
+onnx::Mul_30
+onnx::Mul_16onnx::Div_32Mul_57"Mul2¿
+rotate.py(69): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+ˇ
+
+onnx::Div_32
+onnx::Div_9onnx::Unsqueeze_36Add_61"Add2¿
+rotate.py(69): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+Ú
+
+onnx::Neg_21onnx::Unsqueeze_37Neg_62"Neg2¿
+rotate.py(71): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+ï
+onnx::Unsqueeze_36
+onnx::Unsqueeze_41onnx::Concat_42Unsqueeze_65"	Unsqueeze2¿
+rotate.py(71): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+ï
+onnx::Unsqueeze_37
+onnx::Unsqueeze_41onnx::Concat_44Unsqueeze_67"	Unsqueeze2¿
+rotate.py(71): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+è
+onnx::Mul_30
+onnx::Unsqueeze_41onnx::Concat_48Unsqueeze_69"	Unsqueeze2¿
+rotate.py(71): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+é
+onnx::Div_9
+onnx::Unsqueeze_41onnx::Concat_50Unsqueeze_71"	Unsqueeze2¿
+rotate.py(71): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+‹
+onnx::Concat_42
+onnx::Concat_44
+onnx::Concat_504
+onnx::Concat_48
+onnx::Concat_50
+onnx::Concat_504onnx::Gather_53	Concat_72"Concat*
+axis †2¿
+rotate.py(71): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+ì
+onnx::Gather_53
+onnx::Gather_54onnx::Add_55	Gather_74"Gather*
+axis †2¿
+rotate.py(74): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+ì
+onnx::Gather_53
+onnx::Gather_56onnx::Mul_57	Gather_76"Gather*
+axis †2¿
+rotate.py(74): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+˙
+
+onnx::Mul_57
+onnx::Mul_58onnx::Add_59Mul_78"Mul2¿
+rotate.py(74): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+ì
+onnx::Gather_53
+onnx::Gather_60onnx::Mul_61	Gather_80"Gather*
+axis †2¿
+rotate.py(74): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+˙
+
+onnx::Mul_61
+onnx::Mul_58onnx::Add_63Mul_82"Mul2¿
+rotate.py(74): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+˙
+
+onnx::Add_59
+onnx::Add_63onnx::Add_64Add_83"Add2¿
+rotate.py(74): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+˝
+
+onnx::Add_55
+onnx::Add_64onnx::Expand_65Add_84"Add2¿
+rotate.py(74): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+ä
+onnx::Expand_65
+onnx::Expand_83onnx::Reshape_84	Expand_99"Expand2¿
+rotate.py(74): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+¶
+onnx::Gather_53
+onnx::ScatterND_507
+onnx::Reshape_84onnx::Gather_86ScatterND_101"	ScatterND2¿
+rotate.py(74): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+ß
+onnx::Gather_86
+onnx::ScatterND_507
+onnx::Reshape_84onnx::Gather_109ScatterND_120"	ScatterND2¿
+rotate.py(74): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+ó
+onnx::Gather_109
+onnx::Gather_110onnx::Add_111
+Gather_122"Gather*
+axis †2¿
+rotate.py(75): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+ó
+onnx::Gather_109
+onnx::Gather_112onnx::Mul_113
+Gather_124"Gather*
+axis †2¿
+rotate.py(75): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+˝
+
+onnx::Mul_113
+onnx::Mul_58onnx::Add_115Mul_126"Mul2¿
+rotate.py(75): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+ó
+onnx::Gather_109
+onnx::Gather_116onnx::Mul_117
+Gather_128"Gather*
+axis †2¿
+rotate.py(75): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+˝
+
+onnx::Mul_117
+onnx::Mul_58onnx::Add_119Mul_130"Mul2¿
+rotate.py(75): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+˛
+
+onnx::Add_115
+onnx::Add_119onnx::Add_120Add_131"Add2¿
+rotate.py(75): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+Å
+onnx::Add_111
+onnx::Add_120onnx::Expand_121Add_132"Add2¿
+rotate.py(75): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+ç
+onnx::Expand_121
+onnx::Expand_83onnx::Reshape_140
+Expand_147"Expand2¿
+rotate.py(75): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+©
+onnx::Gather_109
+onnx::ScatterND_511
+onnx::Reshape_140onnx::Gather_142ScatterND_149"	ScatterND2¿
+rotate.py(75): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+©
+onnx::Gather_142
+onnx::ScatterND_511
+onnx::Reshape_140onnx::Gather_165ScatterND_168"	ScatterND2¿
+rotate.py(75): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+ñ
+onnx::Gather_165
+onnx::Gather_54onnx::Add_167
+Gather_170"Gather*
+axis †2¿
+rotate.py(77): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+Å
+onnx::Add_167
+onnx::Add_168onnx::Expand_169Add_172"Add2¿
+rotate.py(77): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+ç
+onnx::Expand_169
+onnx::Expand_83onnx::Reshape_188
+Expand_187"Expand2¿
+rotate.py(77): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+©
+onnx::Gather_165
+onnx::ScatterND_507
+onnx::Reshape_188onnx::Gather_190ScatterND_189"	ScatterND2¿
+rotate.py(77): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+©
+onnx::Gather_190
+onnx::ScatterND_507
+onnx::Reshape_188onnx::Gather_213ScatterND_208"	ScatterND2¿
+rotate.py(77): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+ó
+onnx::Gather_213
+onnx::Gather_110onnx::Add_215
+Gather_210"Gather*
+axis †2¿
+rotate.py(78): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+Å
+onnx::Add_215
+onnx::Add_168onnx::Expand_217Add_212"Add2¿
+rotate.py(78): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+ç
+onnx::Expand_217
+onnx::Expand_83onnx::Reshape_236
+Expand_227"Expand2¿
+rotate.py(78): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+©
+onnx::Gather_213
+onnx::ScatterND_511
+onnx::Reshape_236onnx::Gather_238ScatterND_229"	ScatterND2¿
+rotate.py(78): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+™
+onnx::Gather_238
+onnx::ScatterND_511
+onnx::Reshape_236onnx::Reshape_261ScatterND_248"	ScatterND2¿
+rotate.py(78): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+¶
+onnx::Reshape_261
+onnx::Reshape_264onnx::Transpose_265Reshape_250"Reshape*
+	allowzero †2¿
+rotate.py(81): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+í
+onnx::Transpose_265onnx::Div_472Transpose_411"	Transpose*
+perm@ @@†2¿
+rotate.py(91): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+Å
+onnx::Div_472
+onnx::Div_473onnx::MatMul_474Div_413"Div2¿
+rotate.py(92): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+é
+onnx::MatMul_485
+onnx::MatMul_474onnx::Reshape_486
+MatMul_415"MatMul2¿
+rotate.py(94): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+ó
+onnx::Reshape_486
+onnx::Reshape_560gridReshape_416"Reshape*
+	allowzero †2¿
+rotate.py(95): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+˝
+
+img
+onnx::Unsqueeze_41img.1Unsqueeze_418"	Unsqueeze2¿
+rotate.py(97): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+≠
+img.1
+gridonnx::Squeeze_501GridSample_419"
+GridSample*
+align_corners †*
+mode"nearest†*
+padding_mode"zeros†2™/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/functional.py(4223): grid_sample
+rotate.py(98): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+
+Ö
+onnx::Squeeze_501
+onnx::Unsqueeze_41503Squeeze_421"Squeeze2¿
+rotate.py(99): custom_rotate
+rotate.py(109): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1118): _slow_forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/nn/modules/module.py(1130): _call_impl
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/jit/_trace.py(1175): _get_trace_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(517): _trace_and_get_graph_from_model
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(602): _create_jit_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(727): _model_to_graph
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(1074): _export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/utils.py(163): export
+/home/ava/anaconda3/envs/rajrup-bev/lib/python3.8/site-packages/torch/onnx/__init__.py(350): export
+rotate.py(123): <module>
+	torch_jit*Bonnx::Concat_504J    *%Bonnx::ScatterND_507J       *%Bonnx::ScatterND_511J       *9Bonnx::Reshape_560J        2       2              *Bonnx::Mul_5J5˙é<*Bonnx::Mul_16J    *"Bonnx::Unsqueeze_41J        *Bonnx::Gather_54J       *Bonnx::Gather_56J        *Bonnx::Mul_58J  ñ¬*Bonnx::Gather_60J       *Bonnx::Gather_110J       *Bonnx::Gather_112J       *Bonnx::Gather_116J       *Bonnx::Add_168J  ñB*1Bonnx::Reshape_264J                     *Bonnx::Div_473J  »A  »A*Bonnx::Expand_83J       *œÍƒBonnx::MatMul_485J∞Í  ƒ¡  ƒ¡  Ä?  º¡  ƒ¡  Ä?  ¥¡  ƒ¡  Ä?  ¨¡  ƒ¡  Ä?  §¡  ƒ¡  Ä?  ú¡  ƒ¡  Ä?  î¡  ƒ¡  Ä?  å¡  ƒ¡  Ä?  Ñ¡  ƒ¡  Ä?  x¡  ƒ¡  Ä?  h¡  ƒ¡  Ä?  X¡  ƒ¡  Ä?  H¡  ƒ¡  Ä?  8¡  ƒ¡  Ä?  (¡  ƒ¡  Ä?  ¡  ƒ¡  Ä?  ¡  ƒ¡  Ä?  ¿  ƒ¡  Ä?  –¿  ƒ¡  Ä?  ∞¿  ƒ¡  Ä?  ê¿  ƒ¡  Ä?  `¿  ƒ¡  Ä?   ¿  ƒ¡  Ä?  ¿ø  ƒ¡  Ä?   ø  ƒ¡  Ä?   ?  ƒ¡  Ä?  ¿?  ƒ¡  Ä?   @  ƒ¡  Ä?  `@  ƒ¡  Ä?  ê@  ƒ¡  Ä?  ∞@  ƒ¡  Ä?  –@  ƒ¡  Ä?  @  ƒ¡  Ä?  A  ƒ¡  Ä?  A  ƒ¡  Ä?  (A  ƒ¡  Ä?  8A  ƒ¡  Ä?  HA  ƒ¡  Ä?  XA  ƒ¡  Ä?  hA  ƒ¡  Ä?  xA  ƒ¡  Ä?  ÑA  ƒ¡  Ä?  åA  ƒ¡  Ä?  îA  ƒ¡  Ä?  úA  ƒ¡  Ä?  §A  ƒ¡  Ä?  ¨A  ƒ¡  Ä?  ¥A  ƒ¡  Ä?  ºA  ƒ¡  Ä?  ƒA  ƒ¡  Ä?  ƒ¡  º¡  Ä?  º¡  º¡  Ä?  ¥¡  º¡  Ä?  ¨¡  º¡  Ä?  §¡  º¡  Ä?  ú¡  º¡  Ä?  î¡  º¡  Ä?  å¡  º¡  Ä?  Ñ¡  º¡  Ä?  x¡  º¡  Ä?  h¡  º¡  Ä?  X¡  º¡  Ä?  H¡  º¡  Ä?  8¡  º¡  Ä?  (¡  º¡  Ä?  ¡  º¡  Ä?  ¡  º¡  Ä?  ¿  º¡  Ä?  –¿  º¡  Ä?  ∞¿  º¡  Ä?  ê¿  º¡  Ä?  `¿  º¡  Ä?   ¿  º¡  Ä?  ¿ø  º¡  Ä?   ø  º¡  Ä?   ?  º¡  Ä?  ¿?  º¡  Ä?   @  º¡  Ä?  `@  º¡  Ä?  ê@  º¡  Ä?  ∞@  º¡  Ä?  –@  º¡  Ä?  @  º¡  Ä?  A  º¡  Ä?  A  º¡  Ä?  (A  º¡  Ä?  8A  º¡  Ä?  HA  º¡  Ä?  XA  º¡  Ä?  hA  º¡  Ä?  xA  º¡  Ä?  ÑA  º¡  Ä?  åA  º¡  Ä?  îA  º¡  Ä?  úA  º¡  Ä?  §A  º¡  Ä?  ¨A  º¡  Ä?  ¥A  º¡  Ä?  ºA  º¡  Ä?  ƒA  º¡  Ä?  ƒ¡  ¥¡  Ä?  º¡  ¥¡  Ä?  ¥¡  ¥¡  Ä?  ¨¡  ¥¡  Ä?  §¡  ¥¡  Ä?  ú¡  ¥¡  Ä?  î¡  ¥¡  Ä?  å¡  ¥¡  Ä?  Ñ¡  ¥¡  Ä?  x¡  ¥¡  Ä?  h¡  ¥¡  Ä?  X¡  ¥¡  Ä?  H¡  ¥¡  Ä?  8¡  ¥¡  Ä?  (¡  ¥¡  Ä?  ¡  ¥¡  Ä?  ¡  ¥¡  Ä?  ¿  ¥¡  Ä?  –¿  ¥¡  Ä?  ∞¿  ¥¡  Ä?  ê¿  ¥¡  Ä?  `¿  ¥¡  Ä?   ¿  ¥¡  Ä?  ¿ø  ¥¡  Ä?   ø  ¥¡  Ä?   ?  ¥¡  Ä?  ¿?  ¥¡  Ä?   @  ¥¡  Ä?  `@  ¥¡  Ä?  ê@  ¥¡  Ä?  ∞@  ¥¡  Ä?  –@  ¥¡  Ä?  @  ¥¡  Ä?  A  ¥¡  Ä?  A  ¥¡  Ä?  (A  ¥¡  Ä?  8A  ¥¡  Ä?  HA  ¥¡  Ä?  XA  ¥¡  Ä?  hA  ¥¡  Ä?  xA  ¥¡  Ä?  ÑA  ¥¡  Ä?  åA  ¥¡  Ä?  îA  ¥¡  Ä?  úA  ¥¡  Ä?  §A  ¥¡  Ä?  ¨A  ¥¡  Ä?  ¥A  ¥¡  Ä?  ºA  ¥¡  Ä?  ƒA  ¥¡  Ä?  ƒ¡  ¨¡  Ä?  º¡  ¨¡  Ä?  ¥¡  ¨¡  Ä?  ¨¡  ¨¡  Ä?  §¡  ¨¡  Ä?  ú¡  ¨¡  Ä?  î¡  ¨¡  Ä?  å¡  ¨¡  Ä?  Ñ¡  ¨¡  Ä?  x¡  ¨¡  Ä?  h¡  ¨¡  Ä?  X¡  ¨¡  Ä?  H¡  ¨¡  Ä?  8¡  ¨¡  Ä?  (¡  ¨¡  Ä?  ¡  ¨¡  Ä?  ¡  ¨¡  Ä?  ¿  ¨¡  Ä?  –¿  ¨¡  Ä?  ∞¿  ¨¡  Ä?  ê¿  ¨¡  Ä?  `¿  ¨¡  Ä?   ¿  ¨¡  Ä?  ¿ø  ¨¡  Ä?   ø  ¨¡  Ä?   ?  ¨¡  Ä?  ¿?  ¨¡  Ä?   @  ¨¡  Ä?  `@  ¨¡  Ä?  ê@  ¨¡  Ä?  ∞@  ¨¡  Ä?  –@  ¨¡  Ä?  @  ¨¡  Ä?  A  ¨¡  Ä?  A  ¨¡  Ä?  (A  ¨¡  Ä?  8A  ¨¡  Ä?  HA  ¨¡  Ä?  XA  ¨¡  Ä?  hA  ¨¡  Ä?  xA  ¨¡  Ä?  ÑA  ¨¡  Ä?  åA  ¨¡  Ä?  îA  ¨¡  Ä?  úA  ¨¡  Ä?  §A  ¨¡  Ä?  ¨A  ¨¡  Ä?  ¥A  ¨¡  Ä?  ºA  ¨¡  Ä?  ƒA  ¨¡  Ä?  ƒ¡  §¡  Ä?  º¡  §¡  Ä?  ¥¡  §¡  Ä?  ¨¡  §¡  Ä?  §¡  §¡  Ä?  ú¡  §¡  Ä?  î¡  §¡  Ä?  å¡  §¡  Ä?  Ñ¡  §¡  Ä?  x¡  §¡  Ä?  h¡  §¡  Ä?  X¡  §¡  Ä?  H¡  §¡  Ä?  8¡  §¡  Ä?  (¡  §¡  Ä?  ¡  §¡  Ä?  ¡  §¡  Ä?  ¿  §¡  Ä?  –¿  §¡  Ä?  ∞¿  §¡  Ä?  ê¿  §¡  Ä?  `¿  §¡  Ä?   ¿  §¡  Ä?  ¿ø  §¡  Ä?   ø  §¡  Ä?   ?  §¡  Ä?  ¿?  §¡  Ä?   @  §¡  Ä?  `@  §¡  Ä?  ê@  §¡  Ä?  ∞@  §¡  Ä?  –@  §¡  Ä?  @  §¡  Ä?  A  §¡  Ä?  A  §¡  Ä?  (A  §¡  Ä?  8A  §¡  Ä?  HA  §¡  Ä?  XA  §¡  Ä?  hA  §¡  Ä?  xA  §¡  Ä?  ÑA  §¡  Ä?  åA  §¡  Ä?  îA  §¡  Ä?  úA  §¡  Ä?  §A  §¡  Ä?  ¨A  §¡  Ä?  ¥A  §¡  Ä?  ºA  §¡  Ä?  ƒA  §¡  Ä?  ƒ¡  ú¡  Ä?  º¡  ú¡  Ä?  ¥¡  ú¡  Ä?  ¨¡  ú¡  Ä?  §¡  ú¡  Ä?  ú¡  ú¡  Ä?  î¡  ú¡  Ä?  å¡  ú¡  Ä?  Ñ¡  ú¡  Ä?  x¡  ú¡  Ä?  h¡  ú¡  Ä?  X¡  ú¡  Ä?  H¡  ú¡  Ä?  8¡  ú¡  Ä?  (¡  ú¡  Ä?  ¡  ú¡  Ä?  ¡  ú¡  Ä?  ¿  ú¡  Ä?  –¿  ú¡  Ä?  ∞¿  ú¡  Ä?  ê¿  ú¡  Ä?  `¿  ú¡  Ä?   ¿  ú¡  Ä?  ¿ø  ú¡  Ä?   ø  ú¡  Ä?   ?  ú¡  Ä?  ¿?  ú¡  Ä?   @  ú¡  Ä?  `@  ú¡  Ä?  ê@  ú¡  Ä?  ∞@  ú¡  Ä?  –@  ú¡  Ä?  @  ú¡  Ä?  A  ú¡  Ä?  A  ú¡  Ä?  (A  ú¡  Ä?  8A  ú¡  Ä?  HA  ú¡  Ä?  XA  ú¡  Ä?  hA  ú¡  Ä?  xA  ú¡  Ä?  ÑA  ú¡  Ä?  åA  ú¡  Ä?  îA  ú¡  Ä?  úA  ú¡  Ä?  §A  ú¡  Ä?  ¨A  ú¡  Ä?  ¥A  ú¡  Ä?  ºA  ú¡  Ä?  ƒA  ú¡  Ä?  ƒ¡  î¡  Ä?  º¡  î¡  Ä?  ¥¡  î¡  Ä?  ¨¡  î¡  Ä?  §¡  î¡  Ä?  ú¡  î¡  Ä?  î¡  î¡  Ä?  å¡  î¡  Ä?  Ñ¡  î¡  Ä?  x¡  î¡  Ä?  h¡  î¡  Ä?  X¡  î¡  Ä?  H¡  î¡  Ä?  8¡  î¡  Ä?  (¡  î¡  Ä?  ¡  î¡  Ä?  ¡  î¡  Ä?  ¿  î¡  Ä?  –¿  î¡  Ä?  ∞¿  î¡  Ä?  ê¿  î¡  Ä?  `¿  î¡  Ä?   ¿  î¡  Ä?  ¿ø  î¡  Ä?   ø  î¡  Ä?   ?  î¡  Ä?  ¿?  î¡  Ä?   @  î¡  Ä?  `@  î¡  Ä?  ê@  î¡  Ä?  ∞@  î¡  Ä?  –@  î¡  Ä?  @  î¡  Ä?  A  î¡  Ä?  A  î¡  Ä?  (A  î¡  Ä?  8A  î¡  Ä?  HA  î¡  Ä?  XA  î¡  Ä?  hA  î¡  Ä?  xA  î¡  Ä?  ÑA  î¡  Ä?  åA  î¡  Ä?  îA  î¡  Ä?  úA  î¡  Ä?  §A  î¡  Ä?  ¨A  î¡  Ä?  ¥A  î¡  Ä?  ºA  î¡  Ä?  ƒA  î¡  Ä?  ƒ¡  å¡  Ä?  º¡  å¡  Ä?  ¥¡  å¡  Ä?  ¨¡  å¡  Ä?  §¡  å¡  Ä?  ú¡  å¡  Ä?  î¡  å¡  Ä?  å¡  å¡  Ä?  Ñ¡  å¡  Ä?  x¡  å¡  Ä?  h¡  å¡  Ä?  X¡  å¡  Ä?  H¡  å¡  Ä?  8¡  å¡  Ä?  (¡  å¡  Ä?  ¡  å¡  Ä?  ¡  å¡  Ä?  ¿  å¡  Ä?  –¿  å¡  Ä?  ∞¿  å¡  Ä?  ê¿  å¡  Ä?  `¿  å¡  Ä?   ¿  å¡  Ä?  ¿ø  å¡  Ä?   ø  å¡  Ä?   ?  å¡  Ä?  ¿?  å¡  Ä?   @  å¡  Ä?  `@  å¡  Ä?  ê@  å¡  Ä?  ∞@  å¡  Ä?  –@  å¡  Ä?  @  å¡  Ä?  A  å¡  Ä?  A  å¡  Ä?  (A  å¡  Ä?  8A  å¡  Ä?  HA  å¡  Ä?  XA  å¡  Ä?  hA  å¡  Ä?  xA  å¡  Ä?  ÑA  å¡  Ä?  åA  å¡  Ä?  îA  å¡  Ä?  úA  å¡  Ä?  §A  å¡  Ä?  ¨A  å¡  Ä?  ¥A  å¡  Ä?  ºA  å¡  Ä?  ƒA  å¡  Ä?  ƒ¡  Ñ¡  Ä?  º¡  Ñ¡  Ä?  ¥¡  Ñ¡  Ä?  ¨¡  Ñ¡  Ä?  §¡  Ñ¡  Ä?  ú¡  Ñ¡  Ä?  î¡  Ñ¡  Ä?  å¡  Ñ¡  Ä?  Ñ¡  Ñ¡  Ä?  x¡  Ñ¡  Ä?  h¡  Ñ¡  Ä?  X¡  Ñ¡  Ä?  H¡  Ñ¡  Ä?  8¡  Ñ¡  Ä?  (¡  Ñ¡  Ä?  ¡  Ñ¡  Ä?  ¡  Ñ¡  Ä?  ¿  Ñ¡  Ä?  –¿  Ñ¡  Ä?  ∞¿  Ñ¡  Ä?  ê¿  Ñ¡  Ä?  `¿  Ñ¡  Ä?   ¿  Ñ¡  Ä?  ¿ø  Ñ¡  Ä?   ø  Ñ¡  Ä?   ?  Ñ¡  Ä?  ¿?  Ñ¡  Ä?   @  Ñ¡  Ä?  `@  Ñ¡  Ä?  ê@  Ñ¡  Ä?  ∞@  Ñ¡  Ä?  –@  Ñ¡  Ä?  @  Ñ¡  Ä?  A  Ñ¡  Ä?  A  Ñ¡  Ä?  (A  Ñ¡  Ä?  8A  Ñ¡  Ä?  HA  Ñ¡  Ä?  XA  Ñ¡  Ä?  hA  Ñ¡  Ä?  xA  Ñ¡  Ä?  ÑA  Ñ¡  Ä?  åA  Ñ¡  Ä?  îA  Ñ¡  Ä?  úA  Ñ¡  Ä?  §A  Ñ¡  Ä?  ¨A  Ñ¡  Ä?  ¥A  Ñ¡  Ä?  ºA  Ñ¡  Ä?  ƒA  Ñ¡  Ä?  ƒ¡  x¡  Ä?  º¡  x¡  Ä?  ¥¡  x¡  Ä?  ¨¡  x¡  Ä?  §¡  x¡  Ä?  ú¡  x¡  Ä?  î¡  x¡  Ä?  å¡  x¡  Ä?  Ñ¡  x¡  Ä?  x¡  x¡  Ä?  h¡  x¡  Ä?  X¡  x¡  Ä?  H¡  x¡  Ä?  8¡  x¡  Ä?  (¡  x¡  Ä?  ¡  x¡  Ä?  ¡  x¡  Ä?  ¿  x¡  Ä?  –¿  x¡  Ä?  ∞¿  x¡  Ä?  ê¿  x¡  Ä?  `¿  x¡  Ä?   ¿  x¡  Ä?  ¿ø  x¡  Ä?   ø  x¡  Ä?   ?  x¡  Ä?  ¿?  x¡  Ä?   @  x¡  Ä?  `@  x¡  Ä?  ê@  x¡  Ä?  ∞@  x¡  Ä?  –@  x¡  Ä?  @  x¡  Ä?  A  x¡  Ä?  A  x¡  Ä?  (A  x¡  Ä?  8A  x¡  Ä?  HA  x¡  Ä?  XA  x¡  Ä?  hA  x¡  Ä?  xA  x¡  Ä?  ÑA  x¡  Ä?  åA  x¡  Ä?  îA  x¡  Ä?  úA  x¡  Ä?  §A  x¡  Ä?  ¨A  x¡  Ä?  ¥A  x¡  Ä?  ºA  x¡  Ä?  ƒA  x¡  Ä?  ƒ¡  h¡  Ä?  º¡  h¡  Ä?  ¥¡  h¡  Ä?  ¨¡  h¡  Ä?  §¡  h¡  Ä?  ú¡  h¡  Ä?  î¡  h¡  Ä?  å¡  h¡  Ä?  Ñ¡  h¡  Ä?  x¡  h¡  Ä?  h¡  h¡  Ä?  X¡  h¡  Ä?  H¡  h¡  Ä?  8¡  h¡  Ä?  (¡  h¡  Ä?  ¡  h¡  Ä?  ¡  h¡  Ä?  ¿  h¡  Ä?  –¿  h¡  Ä?  ∞¿  h¡  Ä?  ê¿  h¡  Ä?  `¿  h¡  Ä?   ¿  h¡  Ä?  ¿ø  h¡  Ä?   ø  h¡  Ä?   ?  h¡  Ä?  ¿?  h¡  Ä?   @  h¡  Ä?  `@  h¡  Ä?  ê@  h¡  Ä?  ∞@  h¡  Ä?  –@  h¡  Ä?  @  h¡  Ä?  A  h¡  Ä?  A  h¡  Ä?  (A  h¡  Ä?  8A  h¡  Ä?  HA  h¡  Ä?  XA  h¡  Ä?  hA  h¡  Ä?  xA  h¡  Ä?  ÑA  h¡  Ä?  åA  h¡  Ä?  îA  h¡  Ä?  úA  h¡  Ä?  §A  h¡  Ä?  ¨A  h¡  Ä?  ¥A  h¡  Ä?  ºA  h¡  Ä?  ƒA  h¡  Ä?  ƒ¡  X¡  Ä?  º¡  X¡  Ä?  ¥¡  X¡  Ä?  ¨¡  X¡  Ä?  §¡  X¡  Ä?  ú¡  X¡  Ä?  î¡  X¡  Ä?  å¡  X¡  Ä?  Ñ¡  X¡  Ä?  x¡  X¡  Ä?  h¡  X¡  Ä?  X¡  X¡  Ä?  H¡  X¡  Ä?  8¡  X¡  Ä?  (¡  X¡  Ä?  ¡  X¡  Ä?  ¡  X¡  Ä?  ¿  X¡  Ä?  –¿  X¡  Ä?  ∞¿  X¡  Ä?  ê¿  X¡  Ä?  `¿  X¡  Ä?   ¿  X¡  Ä?  ¿ø  X¡  Ä?   ø  X¡  Ä?   ?  X¡  Ä?  ¿?  X¡  Ä?   @  X¡  Ä?  `@  X¡  Ä?  ê@  X¡  Ä?  ∞@  X¡  Ä?  –@  X¡  Ä?  @  X¡  Ä?  A  X¡  Ä?  A  X¡  Ä?  (A  X¡  Ä?  8A  X¡  Ä?  HA  X¡  Ä?  XA  X¡  Ä?  hA  X¡  Ä?  xA  X¡  Ä?  ÑA  X¡  Ä?  åA  X¡  Ä?  îA  X¡  Ä?  úA  X¡  Ä?  §A  X¡  Ä?  ¨A  X¡  Ä?  ¥A  X¡  Ä?  ºA  X¡  Ä?  ƒA  X¡  Ä?  ƒ¡  H¡  Ä?  º¡  H¡  Ä?  ¥¡  H¡  Ä?  ¨¡  H¡  Ä?  §¡  H¡  Ä?  ú¡  H¡  Ä?  î¡  H¡  Ä?  å¡  H¡  Ä?  Ñ¡  H¡  Ä?  x¡  H¡  Ä?  h¡  H¡  Ä?  X¡  H¡  Ä?  H¡  H¡  Ä?  8¡  H¡  Ä?  (¡  H¡  Ä?  ¡  H¡  Ä?  ¡  H¡  Ä?  ¿  H¡  Ä?  –¿  H¡  Ä?  ∞¿  H¡  Ä?  ê¿  H¡  Ä?  `¿  H¡  Ä?   ¿  H¡  Ä?  ¿ø  H¡  Ä?   ø  H¡  Ä?   ?  H¡  Ä?  ¿?  H¡  Ä?   @  H¡  Ä?  `@  H¡  Ä?  ê@  H¡  Ä?  ∞@  H¡  Ä?  –@  H¡  Ä?  @  H¡  Ä?  A  H¡  Ä?  A  H¡  Ä?  (A  H¡  Ä?  8A  H¡  Ä?  HA  H¡  Ä?  XA  H¡  Ä?  hA  H¡  Ä?  xA  H¡  Ä?  ÑA  H¡  Ä?  åA  H¡  Ä?  îA  H¡  Ä?  úA  H¡  Ä?  §A  H¡  Ä?  ¨A  H¡  Ä?  ¥A  H¡  Ä?  ºA  H¡  Ä?  ƒA  H¡  Ä?  ƒ¡  8¡  Ä?  º¡  8¡  Ä?  ¥¡  8¡  Ä?  ¨¡  8¡  Ä?  §¡  8¡  Ä?  ú¡  8¡  Ä?  î¡  8¡  Ä?  å¡  8¡  Ä?  Ñ¡  8¡  Ä?  x¡  8¡  Ä?  h¡  8¡  Ä?  X¡  8¡  Ä?  H¡  8¡  Ä?  8¡  8¡  Ä?  (¡  8¡  Ä?  ¡  8¡  Ä?  ¡  8¡  Ä?  ¿  8¡  Ä?  –¿  8¡  Ä?  ∞¿  8¡  Ä?  ê¿  8¡  Ä?  `¿  8¡  Ä?   ¿  8¡  Ä?  ¿ø  8¡  Ä?   ø  8¡  Ä?   ?  8¡  Ä?  ¿?  8¡  Ä?   @  8¡  Ä?  `@  8¡  Ä?  ê@  8¡  Ä?  ∞@  8¡  Ä?  –@  8¡  Ä?  @  8¡  Ä?  A  8¡  Ä?  A  8¡  Ä?  (A  8¡  Ä?  8A  8¡  Ä?  HA  8¡  Ä?  XA  8¡  Ä?  hA  8¡  Ä?  xA  8¡  Ä?  ÑA  8¡  Ä?  åA  8¡  Ä?  îA  8¡  Ä?  úA  8¡  Ä?  §A  8¡  Ä?  ¨A  8¡  Ä?  ¥A  8¡  Ä?  ºA  8¡  Ä?  ƒA  8¡  Ä?  ƒ¡  (¡  Ä?  º¡  (¡  Ä?  ¥¡  (¡  Ä?  ¨¡  (¡  Ä?  §¡  (¡  Ä?  ú¡  (¡  Ä?  î¡  (¡  Ä?  å¡  (¡  Ä?  Ñ¡  (¡  Ä?  x¡  (¡  Ä?  h¡  (¡  Ä?  X¡  (¡  Ä?  H¡  (¡  Ä?  8¡  (¡  Ä?  (¡  (¡  Ä?  ¡  (¡  Ä?  ¡  (¡  Ä?  ¿  (¡  Ä?  –¿  (¡  Ä?  ∞¿  (¡  Ä?  ê¿  (¡  Ä?  `¿  (¡  Ä?   ¿  (¡  Ä?  ¿ø  (¡  Ä?   ø  (¡  Ä?   ?  (¡  Ä?  ¿?  (¡  Ä?   @  (¡  Ä?  `@  (¡  Ä?  ê@  (¡  Ä?  ∞@  (¡  Ä?  –@  (¡  Ä?  @  (¡  Ä?  A  (¡  Ä?  A  (¡  Ä?  (A  (¡  Ä?  8A  (¡  Ä?  HA  (¡  Ä?  XA  (¡  Ä?  hA  (¡  Ä?  xA  (¡  Ä?  ÑA  (¡  Ä?  åA  (¡  Ä?  îA  (¡  Ä?  úA  (¡  Ä?  §A  (¡  Ä?  ¨A  (¡  Ä?  ¥A  (¡  Ä?  ºA  (¡  Ä?  ƒA  (¡  Ä?  ƒ¡  ¡  Ä?  º¡  ¡  Ä?  ¥¡  ¡  Ä?  ¨¡  ¡  Ä?  §¡  ¡  Ä?  ú¡  ¡  Ä?  î¡  ¡  Ä?  å¡  ¡  Ä?  Ñ¡  ¡  Ä?  x¡  ¡  Ä?  h¡  ¡  Ä?  X¡  ¡  Ä?  H¡  ¡  Ä?  8¡  ¡  Ä?  (¡  ¡  Ä?  ¡  ¡  Ä?  ¡  ¡  Ä?  ¿  ¡  Ä?  –¿  ¡  Ä?  ∞¿  ¡  Ä?  ê¿  ¡  Ä?  `¿  ¡  Ä?   ¿  ¡  Ä?  ¿ø  ¡  Ä?   ø  ¡  Ä?   ?  ¡  Ä?  ¿?  ¡  Ä?   @  ¡  Ä?  `@  ¡  Ä?  ê@  ¡  Ä?  ∞@  ¡  Ä?  –@  ¡  Ä?  @  ¡  Ä?  A  ¡  Ä?  A  ¡  Ä?  (A  ¡  Ä?  8A  ¡  Ä?  HA  ¡  Ä?  XA  ¡  Ä?  hA  ¡  Ä?  xA  ¡  Ä?  ÑA  ¡  Ä?  åA  ¡  Ä?  îA  ¡  Ä?  úA  ¡  Ä?  §A  ¡  Ä?  ¨A  ¡  Ä?  ¥A  ¡  Ä?  ºA  ¡  Ä?  ƒA  ¡  Ä?  ƒ¡  ¡  Ä?  º¡  ¡  Ä?  ¥¡  ¡  Ä?  ¨¡  ¡  Ä?  §¡  ¡  Ä?  ú¡  ¡  Ä?  î¡  ¡  Ä?  å¡  ¡  Ä?  Ñ¡  ¡  Ä?  x¡  ¡  Ä?  h¡  ¡  Ä?  X¡  ¡  Ä?  H¡  ¡  Ä?  8¡  ¡  Ä?  (¡  ¡  Ä?  ¡  ¡  Ä?  ¡  ¡  Ä?  ¿  ¡  Ä?  –¿  ¡  Ä?  ∞¿  ¡  Ä?  ê¿  ¡  Ä?  `¿  ¡  Ä?   ¿  ¡  Ä?  ¿ø  ¡  Ä?   ø  ¡  Ä?   ?  ¡  Ä?  ¿?  ¡  Ä?   @  ¡  Ä?  `@  ¡  Ä?  ê@  ¡  Ä?  ∞@  ¡  Ä?  –@  ¡  Ä?  @  ¡  Ä?  A  ¡  Ä?  A  ¡  Ä?  (A  ¡  Ä?  8A  ¡  Ä?  HA  ¡  Ä?  XA  ¡  Ä?  hA  ¡  Ä?  xA  ¡  Ä?  ÑA  ¡  Ä?  åA  ¡  Ä?  îA  ¡  Ä?  úA  ¡  Ä?  §A  ¡  Ä?  ¨A  ¡  Ä?  ¥A  ¡  Ä?  ºA  ¡  Ä?  ƒA  ¡  Ä?  ƒ¡  ¿  Ä?  º¡  ¿  Ä?  ¥¡  ¿  Ä?  ¨¡  ¿  Ä?  §¡  ¿  Ä?  ú¡  ¿  Ä?  î¡  ¿  Ä?  å¡  ¿  Ä?  Ñ¡  ¿  Ä?  x¡  ¿  Ä?  h¡  ¿  Ä?  X¡  ¿  Ä?  H¡  ¿  Ä?  8¡  ¿  Ä?  (¡  ¿  Ä?  ¡  ¿  Ä?  ¡  ¿  Ä?  ¿  ¿  Ä?  –¿  ¿  Ä?  ∞¿  ¿  Ä?  ê¿  ¿  Ä?  `¿  ¿  Ä?   ¿  ¿  Ä?  ¿ø  ¿  Ä?   ø  ¿  Ä?   ?  ¿  Ä?  ¿?  ¿  Ä?   @  ¿  Ä?  `@  ¿  Ä?  ê@  ¿  Ä?  ∞@  ¿  Ä?  –@  ¿  Ä?  @  ¿  Ä?  A  ¿  Ä?  A  ¿  Ä?  (A  ¿  Ä?  8A  ¿  Ä?  HA  ¿  Ä?  XA  ¿  Ä?  hA  ¿  Ä?  xA  ¿  Ä?  ÑA  ¿  Ä?  åA  ¿  Ä?  îA  ¿  Ä?  úA  ¿  Ä?  §A  ¿  Ä?  ¨A  ¿  Ä?  ¥A  ¿  Ä?  ºA  ¿  Ä?  ƒA  ¿  Ä?  ƒ¡  –¿  Ä?  º¡  –¿  Ä?  ¥¡  –¿  Ä?  ¨¡  –¿  Ä?  §¡  –¿  Ä?  ú¡  –¿  Ä?  î¡  –¿  Ä?  å¡  –¿  Ä?  Ñ¡  –¿  Ä?  x¡  –¿  Ä?  h¡  –¿  Ä?  X¡  –¿  Ä?  H¡  –¿  Ä?  8¡  –¿  Ä?  (¡  –¿  Ä?  ¡  –¿  Ä?  ¡  –¿  Ä?  ¿  –¿  Ä?  –¿  –¿  Ä?  ∞¿  –¿  Ä?  ê¿  –¿  Ä?  `¿  –¿  Ä?   ¿  –¿  Ä?  ¿ø  –¿  Ä?   ø  –¿  Ä?   ?  –¿  Ä?  ¿?  –¿  Ä?   @  –¿  Ä?  `@  –¿  Ä?  ê@  –¿  Ä?  ∞@  –¿  Ä?  –@  –¿  Ä?  @  –¿  Ä?  A  –¿  Ä?  A  –¿  Ä?  (A  –¿  Ä?  8A  –¿  Ä?  HA  –¿  Ä?  XA  –¿  Ä?  hA  –¿  Ä?  xA  –¿  Ä?  ÑA  –¿  Ä?  åA  –¿  Ä?  îA  –¿  Ä?  úA  –¿  Ä?  §A  –¿  Ä?  ¨A  –¿  Ä?  ¥A  –¿  Ä?  ºA  –¿  Ä?  ƒA  –¿  Ä?  ƒ¡  ∞¿  Ä?  º¡  ∞¿  Ä?  ¥¡  ∞¿  Ä?  ¨¡  ∞¿  Ä?  §¡  ∞¿  Ä?  ú¡  ∞¿  Ä?  î¡  ∞¿  Ä?  å¡  ∞¿  Ä?  Ñ¡  ∞¿  Ä?  x¡  ∞¿  Ä?  h¡  ∞¿  Ä?  X¡  ∞¿  Ä?  H¡  ∞¿  Ä?  8¡  ∞¿  Ä?  (¡  ∞¿  Ä?  ¡  ∞¿  Ä?  ¡  ∞¿  Ä?  ¿  ∞¿  Ä?  –¿  ∞¿  Ä?  ∞¿  ∞¿  Ä?  ê¿  ∞¿  Ä?  `¿  ∞¿  Ä?   ¿  ∞¿  Ä?  ¿ø  ∞¿  Ä?   ø  ∞¿  Ä?   ?  ∞¿  Ä?  ¿?  ∞¿  Ä?   @  ∞¿  Ä?  `@  ∞¿  Ä?  ê@  ∞¿  Ä?  ∞@  ∞¿  Ä?  –@  ∞¿  Ä?  @  ∞¿  Ä?  A  ∞¿  Ä?  A  ∞¿  Ä?  (A  ∞¿  Ä?  8A  ∞¿  Ä?  HA  ∞¿  Ä?  XA  ∞¿  Ä?  hA  ∞¿  Ä?  xA  ∞¿  Ä?  ÑA  ∞¿  Ä?  åA  ∞¿  Ä?  îA  ∞¿  Ä?  úA  ∞¿  Ä?  §A  ∞¿  Ä?  ¨A  ∞¿  Ä?  ¥A  ∞¿  Ä?  ºA  ∞¿  Ä?  ƒA  ∞¿  Ä?  ƒ¡  ê¿  Ä?  º¡  ê¿  Ä?  ¥¡  ê¿  Ä?  ¨¡  ê¿  Ä?  §¡  ê¿  Ä?  ú¡  ê¿  Ä?  î¡  ê¿  Ä?  å¡  ê¿  Ä?  Ñ¡  ê¿  Ä?  x¡  ê¿  Ä?  h¡  ê¿  Ä?  X¡  ê¿  Ä?  H¡  ê¿  Ä?  8¡  ê¿  Ä?  (¡  ê¿  Ä?  ¡  ê¿  Ä?  ¡  ê¿  Ä?  ¿  ê¿  Ä?  –¿  ê¿  Ä?  ∞¿  ê¿  Ä?  ê¿  ê¿  Ä?  `¿  ê¿  Ä?   ¿  ê¿  Ä?  ¿ø  ê¿  Ä?   ø  ê¿  Ä?   ?  ê¿  Ä?  ¿?  ê¿  Ä?   @  ê¿  Ä?  `@  ê¿  Ä?  ê@  ê¿  Ä?  ∞@  ê¿  Ä?  –@  ê¿  Ä?  @  ê¿  Ä?  A  ê¿  Ä?  A  ê¿  Ä?  (A  ê¿  Ä?  8A  ê¿  Ä?  HA  ê¿  Ä?  XA  ê¿  Ä?  hA  ê¿  Ä?  xA  ê¿  Ä?  ÑA  ê¿  Ä?  åA  ê¿  Ä?  îA  ê¿  Ä?  úA  ê¿  Ä?  §A  ê¿  Ä?  ¨A  ê¿  Ä?  ¥A  ê¿  Ä?  ºA  ê¿  Ä?  ƒA  ê¿  Ä?  ƒ¡  `¿  Ä?  º¡  `¿  Ä?  ¥¡  `¿  Ä?  ¨¡  `¿  Ä?  §¡  `¿  Ä?  ú¡  `¿  Ä?  î¡  `¿  Ä?  å¡  `¿  Ä?  Ñ¡  `¿  Ä?  x¡  `¿  Ä?  h¡  `¿  Ä?  X¡  `¿  Ä?  H¡  `¿  Ä?  8¡  `¿  Ä?  (¡  `¿  Ä?  ¡  `¿  Ä?  ¡  `¿  Ä?  ¿  `¿  Ä?  –¿  `¿  Ä?  ∞¿  `¿  Ä?  ê¿  `¿  Ä?  `¿  `¿  Ä?   ¿  `¿  Ä?  ¿ø  `¿  Ä?   ø  `¿  Ä?   ?  `¿  Ä?  ¿?  `¿  Ä?   @  `¿  Ä?  `@  `¿  Ä?  ê@  `¿  Ä?  ∞@  `¿  Ä?  –@  `¿  Ä?  @  `¿  Ä?  A  `¿  Ä?  A  `¿  Ä?  (A  `¿  Ä?  8A  `¿  Ä?  HA  `¿  Ä?  XA  `¿  Ä?  hA  `¿  Ä?  xA  `¿  Ä?  ÑA  `¿  Ä?  åA  `¿  Ä?  îA  `¿  Ä?  úA  `¿  Ä?  §A  `¿  Ä?  ¨A  `¿  Ä?  ¥A  `¿  Ä?  ºA  `¿  Ä?  ƒA  `¿  Ä?  ƒ¡   ¿  Ä?  º¡   ¿  Ä?  ¥¡   ¿  Ä?  ¨¡   ¿  Ä?  §¡   ¿  Ä?  ú¡   ¿  Ä?  î¡   ¿  Ä?  å¡   ¿  Ä?  Ñ¡   ¿  Ä?  x¡   ¿  Ä?  h¡   ¿  Ä?  X¡   ¿  Ä?  H¡   ¿  Ä?  8¡   ¿  Ä?  (¡   ¿  Ä?  ¡   ¿  Ä?  ¡   ¿  Ä?  ¿   ¿  Ä?  –¿   ¿  Ä?  ∞¿   ¿  Ä?  ê¿   ¿  Ä?  `¿   ¿  Ä?   ¿   ¿  Ä?  ¿ø   ¿  Ä?   ø   ¿  Ä?   ?   ¿  Ä?  ¿?   ¿  Ä?   @   ¿  Ä?  `@   ¿  Ä?  ê@   ¿  Ä?  ∞@   ¿  Ä?  –@   ¿  Ä?  @   ¿  Ä?  A   ¿  Ä?  A   ¿  Ä?  (A   ¿  Ä?  8A   ¿  Ä?  HA   ¿  Ä?  XA   ¿  Ä?  hA   ¿  Ä?  xA   ¿  Ä?  ÑA   ¿  Ä?  åA   ¿  Ä?  îA   ¿  Ä?  úA   ¿  Ä?  §A   ¿  Ä?  ¨A   ¿  Ä?  ¥A   ¿  Ä?  ºA   ¿  Ä?  ƒA   ¿  Ä?  ƒ¡  ¿ø  Ä?  º¡  ¿ø  Ä?  ¥¡  ¿ø  Ä?  ¨¡  ¿ø  Ä?  §¡  ¿ø  Ä?  ú¡  ¿ø  Ä?  î¡  ¿ø  Ä?  å¡  ¿ø  Ä?  Ñ¡  ¿ø  Ä?  x¡  ¿ø  Ä?  h¡  ¿ø  Ä?  X¡  ¿ø  Ä?  H¡  ¿ø  Ä?  8¡  ¿ø  Ä?  (¡  ¿ø  Ä?  ¡  ¿ø  Ä?  ¡  ¿ø  Ä?  ¿  ¿ø  Ä?  –¿  ¿ø  Ä?  ∞¿  ¿ø  Ä?  ê¿  ¿ø  Ä?  `¿  ¿ø  Ä?   ¿  ¿ø  Ä?  ¿ø  ¿ø  Ä?   ø  ¿ø  Ä?   ?  ¿ø  Ä?  ¿?  ¿ø  Ä?   @  ¿ø  Ä?  `@  ¿ø  Ä?  ê@  ¿ø  Ä?  ∞@  ¿ø  Ä?  –@  ¿ø  Ä?  @  ¿ø  Ä?  A  ¿ø  Ä?  A  ¿ø  Ä?  (A  ¿ø  Ä?  8A  ¿ø  Ä?  HA  ¿ø  Ä?  XA  ¿ø  Ä?  hA  ¿ø  Ä?  xA  ¿ø  Ä?  ÑA  ¿ø  Ä?  åA  ¿ø  Ä?  îA  ¿ø  Ä?  úA  ¿ø  Ä?  §A  ¿ø  Ä?  ¨A  ¿ø  Ä?  ¥A  ¿ø  Ä?  ºA  ¿ø  Ä?  ƒA  ¿ø  Ä?  ƒ¡   ø  Ä?  º¡   ø  Ä?  ¥¡   ø  Ä?  ¨¡   ø  Ä?  §¡   ø  Ä?  ú¡   ø  Ä?  î¡   ø  Ä?  å¡   ø  Ä?  Ñ¡   ø  Ä?  x¡   ø  Ä?  h¡   ø  Ä?  X¡   ø  Ä?  H¡   ø  Ä?  8¡   ø  Ä?  (¡   ø  Ä?  ¡   ø  Ä?  ¡   ø  Ä?  ¿   ø  Ä?  –¿   ø  Ä?  ∞¿   ø  Ä?  ê¿   ø  Ä?  `¿   ø  Ä?   ¿   ø  Ä?  ¿ø   ø  Ä?   ø   ø  Ä?   ?   ø  Ä?  ¿?   ø  Ä?   @   ø  Ä?  `@   ø  Ä?  ê@   ø  Ä?  ∞@   ø  Ä?  –@   ø  Ä?  @   ø  Ä?  A   ø  Ä?  A   ø  Ä?  (A   ø  Ä?  8A   ø  Ä?  HA   ø  Ä?  XA   ø  Ä?  hA   ø  Ä?  xA   ø  Ä?  ÑA   ø  Ä?  åA   ø  Ä?  îA   ø  Ä?  úA   ø  Ä?  §A   ø  Ä?  ¨A   ø  Ä?  ¥A   ø  Ä?  ºA   ø  Ä?  ƒA   ø  Ä?  ƒ¡   ?  Ä?  º¡   ?  Ä?  ¥¡   ?  Ä?  ¨¡   ?  Ä?  §¡   ?  Ä?  ú¡   ?  Ä?  î¡   ?  Ä?  å¡   ?  Ä?  Ñ¡   ?  Ä?  x¡   ?  Ä?  h¡   ?  Ä?  X¡   ?  Ä?  H¡   ?  Ä?  8¡   ?  Ä?  (¡   ?  Ä?  ¡   ?  Ä?  ¡   ?  Ä?  ¿   ?  Ä?  –¿   ?  Ä?  ∞¿   ?  Ä?  ê¿   ?  Ä?  `¿   ?  Ä?   ¿   ?  Ä?  ¿ø   ?  Ä?   ø   ?  Ä?   ?   ?  Ä?  ¿?   ?  Ä?   @   ?  Ä?  `@   ?  Ä?  ê@   ?  Ä?  ∞@   ?  Ä?  –@   ?  Ä?  @   ?  Ä?  A   ?  Ä?  A   ?  Ä?  (A   ?  Ä?  8A   ?  Ä?  HA   ?  Ä?  XA   ?  Ä?  hA   ?  Ä?  xA   ?  Ä?  ÑA   ?  Ä?  åA   ?  Ä?  îA   ?  Ä?  úA   ?  Ä?  §A   ?  Ä?  ¨A   ?  Ä?  ¥A   ?  Ä?  ºA   ?  Ä?  ƒA   ?  Ä?  ƒ¡  ¿?  Ä?  º¡  ¿?  Ä?  ¥¡  ¿?  Ä?  ¨¡  ¿?  Ä?  §¡  ¿?  Ä?  ú¡  ¿?  Ä?  î¡  ¿?  Ä?  å¡  ¿?  Ä?  Ñ¡  ¿?  Ä?  x¡  ¿?  Ä?  h¡  ¿?  Ä?  X¡  ¿?  Ä?  H¡  ¿?  Ä?  8¡  ¿?  Ä?  (¡  ¿?  Ä?  ¡  ¿?  Ä?  ¡  ¿?  Ä?  ¿  ¿?  Ä?  –¿  ¿?  Ä?  ∞¿  ¿?  Ä?  ê¿  ¿?  Ä?  `¿  ¿?  Ä?   ¿  ¿?  Ä?  ¿ø  ¿?  Ä?   ø  ¿?  Ä?   ?  ¿?  Ä?  ¿?  ¿?  Ä?   @  ¿?  Ä?  `@  ¿?  Ä?  ê@  ¿?  Ä?  ∞@  ¿?  Ä?  –@  ¿?  Ä?  @  ¿?  Ä?  A  ¿?  Ä?  A  ¿?  Ä?  (A  ¿?  Ä?  8A  ¿?  Ä?  HA  ¿?  Ä?  XA  ¿?  Ä?  hA  ¿?  Ä?  xA  ¿?  Ä?  ÑA  ¿?  Ä?  åA  ¿?  Ä?  îA  ¿?  Ä?  úA  ¿?  Ä?  §A  ¿?  Ä?  ¨A  ¿?  Ä?  ¥A  ¿?  Ä?  ºA  ¿?  Ä?  ƒA  ¿?  Ä?  ƒ¡   @  Ä?  º¡   @  Ä?  ¥¡   @  Ä?  ¨¡   @  Ä?  §¡   @  Ä?  ú¡   @  Ä?  î¡   @  Ä?  å¡   @  Ä?  Ñ¡   @  Ä?  x¡   @  Ä?  h¡   @  Ä?  X¡   @  Ä?  H¡   @  Ä?  8¡   @  Ä?  (¡   @  Ä?  ¡   @  Ä?  ¡   @  Ä?  ¿   @  Ä?  –¿   @  Ä?  ∞¿   @  Ä?  ê¿   @  Ä?  `¿   @  Ä?   ¿   @  Ä?  ¿ø   @  Ä?   ø   @  Ä?   ?   @  Ä?  ¿?   @  Ä?   @   @  Ä?  `@   @  Ä?  ê@   @  Ä?  ∞@   @  Ä?  –@   @  Ä?  @   @  Ä?  A   @  Ä?  A   @  Ä?  (A   @  Ä?  8A   @  Ä?  HA   @  Ä?  XA   @  Ä?  hA   @  Ä?  xA   @  Ä?  ÑA   @  Ä?  åA   @  Ä?  îA   @  Ä?  úA   @  Ä?  §A   @  Ä?  ¨A   @  Ä?  ¥A   @  Ä?  ºA   @  Ä?  ƒA   @  Ä?  ƒ¡  `@  Ä?  º¡  `@  Ä?  ¥¡  `@  Ä?  ¨¡  `@  Ä?  §¡  `@  Ä?  ú¡  `@  Ä?  î¡  `@  Ä?  å¡  `@  Ä?  Ñ¡  `@  Ä?  x¡  `@  Ä?  h¡  `@  Ä?  X¡  `@  Ä?  H¡  `@  Ä?  8¡  `@  Ä?  (¡  `@  Ä?  ¡  `@  Ä?  ¡  `@  Ä?  ¿  `@  Ä?  –¿  `@  Ä?  ∞¿  `@  Ä?  ê¿  `@  Ä?  `¿  `@  Ä?   ¿  `@  Ä?  ¿ø  `@  Ä?   ø  `@  Ä?   ?  `@  Ä?  ¿?  `@  Ä?   @  `@  Ä?  `@  `@  Ä?  ê@  `@  Ä?  ∞@  `@  Ä?  –@  `@  Ä?  @  `@  Ä?  A  `@  Ä?  A  `@  Ä?  (A  `@  Ä?  8A  `@  Ä?  HA  `@  Ä?  XA  `@  Ä?  hA  `@  Ä?  xA  `@  Ä?  ÑA  `@  Ä?  åA  `@  Ä?  îA  `@  Ä?  úA  `@  Ä?  §A  `@  Ä?  ¨A  `@  Ä?  ¥A  `@  Ä?  ºA  `@  Ä?  ƒA  `@  Ä?  ƒ¡  ê@  Ä?  º¡  ê@  Ä?  ¥¡  ê@  Ä?  ¨¡  ê@  Ä?  §¡  ê@  Ä?  ú¡  ê@  Ä?  î¡  ê@  Ä?  å¡  ê@  Ä?  Ñ¡  ê@  Ä?  x¡  ê@  Ä?  h¡  ê@  Ä?  X¡  ê@  Ä?  H¡  ê@  Ä?  8¡  ê@  Ä?  (¡  ê@  Ä?  ¡  ê@  Ä?  ¡  ê@  Ä?  ¿  ê@  Ä?  –¿  ê@  Ä?  ∞¿  ê@  Ä?  ê¿  ê@  Ä?  `¿  ê@  Ä?   ¿  ê@  Ä?  ¿ø  ê@  Ä?   ø  ê@  Ä?   ?  ê@  Ä?  ¿?  ê@  Ä?   @  ê@  Ä?  `@  ê@  Ä?  ê@  ê@  Ä?  ∞@  ê@  Ä?  –@  ê@  Ä?  @  ê@  Ä?  A  ê@  Ä?  A  ê@  Ä?  (A  ê@  Ä?  8A  ê@  Ä?  HA  ê@  Ä?  XA  ê@  Ä?  hA  ê@  Ä?  xA  ê@  Ä?  ÑA  ê@  Ä?  åA  ê@  Ä?  îA  ê@  Ä?  úA  ê@  Ä?  §A  ê@  Ä?  ¨A  ê@  Ä?  ¥A  ê@  Ä?  ºA  ê@  Ä?  ƒA  ê@  Ä?  ƒ¡  ∞@  Ä?  º¡  ∞@  Ä?  ¥¡  ∞@  Ä?  ¨¡  ∞@  Ä?  §¡  ∞@  Ä?  ú¡  ∞@  Ä?  î¡  ∞@  Ä?  å¡  ∞@  Ä?  Ñ¡  ∞@  Ä?  x¡  ∞@  Ä?  h¡  ∞@  Ä?  X¡  ∞@  Ä?  H¡  ∞@  Ä?  8¡  ∞@  Ä?  (¡  ∞@  Ä?  ¡  ∞@  Ä?  ¡  ∞@  Ä?  ¿  ∞@  Ä?  –¿  ∞@  Ä?  ∞¿  ∞@  Ä?  ê¿  ∞@  Ä?  `¿  ∞@  Ä?   ¿  ∞@  Ä?  ¿ø  ∞@  Ä?   ø  ∞@  Ä?   ?  ∞@  Ä?  ¿?  ∞@  Ä?   @  ∞@  Ä?  `@  ∞@  Ä?  ê@  ∞@  Ä?  ∞@  ∞@  Ä?  –@  ∞@  Ä?  @  ∞@  Ä?  A  ∞@  Ä?  A  ∞@  Ä?  (A  ∞@  Ä?  8A  ∞@  Ä?  HA  ∞@  Ä?  XA  ∞@  Ä?  hA  ∞@  Ä?  xA  ∞@  Ä?  ÑA  ∞@  Ä?  åA  ∞@  Ä?  îA  ∞@  Ä?  úA  ∞@  Ä?  §A  ∞@  Ä?  ¨A  ∞@  Ä?  ¥A  ∞@  Ä?  ºA  ∞@  Ä?  ƒA  ∞@  Ä?  ƒ¡  –@  Ä?  º¡  –@  Ä?  ¥¡  –@  Ä?  ¨¡  –@  Ä?  §¡  –@  Ä?  ú¡  –@  Ä?  î¡  –@  Ä?  å¡  –@  Ä?  Ñ¡  –@  Ä?  x¡  –@  Ä?  h¡  –@  Ä?  X¡  –@  Ä?  H¡  –@  Ä?  8¡  –@  Ä?  (¡  –@  Ä?  ¡  –@  Ä?  ¡  –@  Ä?  ¿  –@  Ä?  –¿  –@  Ä?  ∞¿  –@  Ä?  ê¿  –@  Ä?  `¿  –@  Ä?   ¿  –@  Ä?  ¿ø  –@  Ä?   ø  –@  Ä?   ?  –@  Ä?  ¿?  –@  Ä?   @  –@  Ä?  `@  –@  Ä?  ê@  –@  Ä?  ∞@  –@  Ä?  –@  –@  Ä?  @  –@  Ä?  A  –@  Ä?  A  –@  Ä?  (A  –@  Ä?  8A  –@  Ä?  HA  –@  Ä?  XA  –@  Ä?  hA  –@  Ä?  xA  –@  Ä?  ÑA  –@  Ä?  åA  –@  Ä?  îA  –@  Ä?  úA  –@  Ä?  §A  –@  Ä?  ¨A  –@  Ä?  ¥A  –@  Ä?  ºA  –@  Ä?  ƒA  –@  Ä?  ƒ¡  @  Ä?  º¡  @  Ä?  ¥¡  @  Ä?  ¨¡  @  Ä?  §¡  @  Ä?  ú¡  @  Ä?  î¡  @  Ä?  å¡  @  Ä?  Ñ¡  @  Ä?  x¡  @  Ä?  h¡  @  Ä?  X¡  @  Ä?  H¡  @  Ä?  8¡  @  Ä?  (¡  @  Ä?  ¡  @  Ä?  ¡  @  Ä?  ¿  @  Ä?  –¿  @  Ä?  ∞¿  @  Ä?  ê¿  @  Ä?  `¿  @  Ä?   ¿  @  Ä?  ¿ø  @  Ä?   ø  @  Ä?   ?  @  Ä?  ¿?  @  Ä?   @  @  Ä?  `@  @  Ä?  ê@  @  Ä?  ∞@  @  Ä?  –@  @  Ä?  @  @  Ä?  A  @  Ä?  A  @  Ä?  (A  @  Ä?  8A  @  Ä?  HA  @  Ä?  XA  @  Ä?  hA  @  Ä?  xA  @  Ä?  ÑA  @  Ä?  åA  @  Ä?  îA  @  Ä?  úA  @  Ä?  §A  @  Ä?  ¨A  @  Ä?  ¥A  @  Ä?  ºA  @  Ä?  ƒA  @  Ä?  ƒ¡  A  Ä?  º¡  A  Ä?  ¥¡  A  Ä?  ¨¡  A  Ä?  §¡  A  Ä?  ú¡  A  Ä?  î¡  A  Ä?  å¡  A  Ä?  Ñ¡  A  Ä?  x¡  A  Ä?  h¡  A  Ä?  X¡  A  Ä?  H¡  A  Ä?  8¡  A  Ä?  (¡  A  Ä?  ¡  A  Ä?  ¡  A  Ä?  ¿  A  Ä?  –¿  A  Ä?  ∞¿  A  Ä?  ê¿  A  Ä?  `¿  A  Ä?   ¿  A  Ä?  ¿ø  A  Ä?   ø  A  Ä?   ?  A  Ä?  ¿?  A  Ä?   @  A  Ä?  `@  A  Ä?  ê@  A  Ä?  ∞@  A  Ä?  –@  A  Ä?  @  A  Ä?  A  A  Ä?  A  A  Ä?  (A  A  Ä?  8A  A  Ä?  HA  A  Ä?  XA  A  Ä?  hA  A  Ä?  xA  A  Ä?  ÑA  A  Ä?  åA  A  Ä?  îA  A  Ä?  úA  A  Ä?  §A  A  Ä?  ¨A  A  Ä?  ¥A  A  Ä?  ºA  A  Ä?  ƒA  A  Ä?  ƒ¡  A  Ä?  º¡  A  Ä?  ¥¡  A  Ä?  ¨¡  A  Ä?  §¡  A  Ä?  ú¡  A  Ä?  î¡  A  Ä?  å¡  A  Ä?  Ñ¡  A  Ä?  x¡  A  Ä?  h¡  A  Ä?  X¡  A  Ä?  H¡  A  Ä?  8¡  A  Ä?  (¡  A  Ä?  ¡  A  Ä?  ¡  A  Ä?  ¿  A  Ä?  –¿  A  Ä?  ∞¿  A  Ä?  ê¿  A  Ä?  `¿  A  Ä?   ¿  A  Ä?  ¿ø  A  Ä?   ø  A  Ä?   ?  A  Ä?  ¿?  A  Ä?   @  A  Ä?  `@  A  Ä?  ê@  A  Ä?  ∞@  A  Ä?  –@  A  Ä?  @  A  Ä?  A  A  Ä?  A  A  Ä?  (A  A  Ä?  8A  A  Ä?  HA  A  Ä?  XA  A  Ä?  hA  A  Ä?  xA  A  Ä?  ÑA  A  Ä?  åA  A  Ä?  îA  A  Ä?  úA  A  Ä?  §A  A  Ä?  ¨A  A  Ä?  ¥A  A  Ä?  ºA  A  Ä?  ƒA  A  Ä?  ƒ¡  (A  Ä?  º¡  (A  Ä?  ¥¡  (A  Ä?  ¨¡  (A  Ä?  §¡  (A  Ä?  ú¡  (A  Ä?  î¡  (A  Ä?  å¡  (A  Ä?  Ñ¡  (A  Ä?  x¡  (A  Ä?  h¡  (A  Ä?  X¡  (A  Ä?  H¡  (A  Ä?  8¡  (A  Ä?  (¡  (A  Ä?  ¡  (A  Ä?  ¡  (A  Ä?  ¿  (A  Ä?  –¿  (A  Ä?  ∞¿  (A  Ä?  ê¿  (A  Ä?  `¿  (A  Ä?   ¿  (A  Ä?  ¿ø  (A  Ä?   ø  (A  Ä?   ?  (A  Ä?  ¿?  (A  Ä?   @  (A  Ä?  `@  (A  Ä?  ê@  (A  Ä?  ∞@  (A  Ä?  –@  (A  Ä?  @  (A  Ä?  A  (A  Ä?  A  (A  Ä?  (A  (A  Ä?  8A  (A  Ä?  HA  (A  Ä?  XA  (A  Ä?  hA  (A  Ä?  xA  (A  Ä?  ÑA  (A  Ä?  åA  (A  Ä?  îA  (A  Ä?  úA  (A  Ä?  §A  (A  Ä?  ¨A  (A  Ä?  ¥A  (A  Ä?  ºA  (A  Ä?  ƒA  (A  Ä?  ƒ¡  8A  Ä?  º¡  8A  Ä?  ¥¡  8A  Ä?  ¨¡  8A  Ä?  §¡  8A  Ä?  ú¡  8A  Ä?  î¡  8A  Ä?  å¡  8A  Ä?  Ñ¡  8A  Ä?  x¡  8A  Ä?  h¡  8A  Ä?  X¡  8A  Ä?  H¡  8A  Ä?  8¡  8A  Ä?  (¡  8A  Ä?  ¡  8A  Ä?  ¡  8A  Ä?  ¿  8A  Ä?  –¿  8A  Ä?  ∞¿  8A  Ä?  ê¿  8A  Ä?  `¿  8A  Ä?   ¿  8A  Ä?  ¿ø  8A  Ä?   ø  8A  Ä?   ?  8A  Ä?  ¿?  8A  Ä?   @  8A  Ä?  `@  8A  Ä?  ê@  8A  Ä?  ∞@  8A  Ä?  –@  8A  Ä?  @  8A  Ä?  A  8A  Ä?  A  8A  Ä?  (A  8A  Ä?  8A  8A  Ä?  HA  8A  Ä?  XA  8A  Ä?  hA  8A  Ä?  xA  8A  Ä?  ÑA  8A  Ä?  åA  8A  Ä?  îA  8A  Ä?  úA  8A  Ä?  §A  8A  Ä?  ¨A  8A  Ä?  ¥A  8A  Ä?  ºA  8A  Ä?  ƒA  8A  Ä?  ƒ¡  HA  Ä?  º¡  HA  Ä?  ¥¡  HA  Ä?  ¨¡  HA  Ä?  §¡  HA  Ä?  ú¡  HA  Ä?  î¡  HA  Ä?  å¡  HA  Ä?  Ñ¡  HA  Ä?  x¡  HA  Ä?  h¡  HA  Ä?  X¡  HA  Ä?  H¡  HA  Ä?  8¡  HA  Ä?  (¡  HA  Ä?  ¡  HA  Ä?  ¡  HA  Ä?  ¿  HA  Ä?  –¿  HA  Ä?  ∞¿  HA  Ä?  ê¿  HA  Ä?  `¿  HA  Ä?   ¿  HA  Ä?  ¿ø  HA  Ä?   ø  HA  Ä?   ?  HA  Ä?  ¿?  HA  Ä?   @  HA  Ä?  `@  HA  Ä?  ê@  HA  Ä?  ∞@  HA  Ä?  –@  HA  Ä?  @  HA  Ä?  A  HA  Ä?  A  HA  Ä?  (A  HA  Ä?  8A  HA  Ä?  HA  HA  Ä?  XA  HA  Ä?  hA  HA  Ä?  xA  HA  Ä?  ÑA  HA  Ä?  åA  HA  Ä?  îA  HA  Ä?  úA  HA  Ä?  §A  HA  Ä?  ¨A  HA  Ä?  ¥A  HA  Ä?  ºA  HA  Ä?  ƒA  HA  Ä?  ƒ¡  XA  Ä?  º¡  XA  Ä?  ¥¡  XA  Ä?  ¨¡  XA  Ä?  §¡  XA  Ä?  ú¡  XA  Ä?  î¡  XA  Ä?  å¡  XA  Ä?  Ñ¡  XA  Ä?  x¡  XA  Ä?  h¡  XA  Ä?  X¡  XA  Ä?  H¡  XA  Ä?  8¡  XA  Ä?  (¡  XA  Ä?  ¡  XA  Ä?  ¡  XA  Ä?  ¿  XA  Ä?  –¿  XA  Ä?  ∞¿  XA  Ä?  ê¿  XA  Ä?  `¿  XA  Ä?   ¿  XA  Ä?  ¿ø  XA  Ä?   ø  XA  Ä?   ?  XA  Ä?  ¿?  XA  Ä?   @  XA  Ä?  `@  XA  Ä?  ê@  XA  Ä?  ∞@  XA  Ä?  –@  XA  Ä?  @  XA  Ä?  A  XA  Ä?  A  XA  Ä?  (A  XA  Ä?  8A  XA  Ä?  HA  XA  Ä?  XA  XA  Ä?  hA  XA  Ä?  xA  XA  Ä?  ÑA  XA  Ä?  åA  XA  Ä?  îA  XA  Ä?  úA  XA  Ä?  §A  XA  Ä?  ¨A  XA  Ä?  ¥A  XA  Ä?  ºA  XA  Ä?  ƒA  XA  Ä?  ƒ¡  hA  Ä?  º¡  hA  Ä?  ¥¡  hA  Ä?  ¨¡  hA  Ä?  §¡  hA  Ä?  ú¡  hA  Ä?  î¡  hA  Ä?  å¡  hA  Ä?  Ñ¡  hA  Ä?  x¡  hA  Ä?  h¡  hA  Ä?  X¡  hA  Ä?  H¡  hA  Ä?  8¡  hA  Ä?  (¡  hA  Ä?  ¡  hA  Ä?  ¡  hA  Ä?  ¿  hA  Ä?  –¿  hA  Ä?  ∞¿  hA  Ä?  ê¿  hA  Ä?  `¿  hA  Ä?   ¿  hA  Ä?  ¿ø  hA  Ä?   ø  hA  Ä?   ?  hA  Ä?  ¿?  hA  Ä?   @  hA  Ä?  `@  hA  Ä?  ê@  hA  Ä?  ∞@  hA  Ä?  –@  hA  Ä?  @  hA  Ä?  A  hA  Ä?  A  hA  Ä?  (A  hA  Ä?  8A  hA  Ä?  HA  hA  Ä?  XA  hA  Ä?  hA  hA  Ä?  xA  hA  Ä?  ÑA  hA  Ä?  åA  hA  Ä?  îA  hA  Ä?  úA  hA  Ä?  §A  hA  Ä?  ¨A  hA  Ä?  ¥A  hA  Ä?  ºA  hA  Ä?  ƒA  hA  Ä?  ƒ¡  xA  Ä?  º¡  xA  Ä?  ¥¡  xA  Ä?  ¨¡  xA  Ä?  §¡  xA  Ä?  ú¡  xA  Ä?  î¡  xA  Ä?  å¡  xA  Ä?  Ñ¡  xA  Ä?  x¡  xA  Ä?  h¡  xA  Ä?  X¡  xA  Ä?  H¡  xA  Ä?  8¡  xA  Ä?  (¡  xA  Ä?  ¡  xA  Ä?  ¡  xA  Ä?  ¿  xA  Ä?  –¿  xA  Ä?  ∞¿  xA  Ä?  ê¿  xA  Ä?  `¿  xA  Ä?   ¿  xA  Ä?  ¿ø  xA  Ä?   ø  xA  Ä?   ?  xA  Ä?  ¿?  xA  Ä?   @  xA  Ä?  `@  xA  Ä?  ê@  xA  Ä?  ∞@  xA  Ä?  –@  xA  Ä?  @  xA  Ä?  A  xA  Ä?  A  xA  Ä?  (A  xA  Ä?  8A  xA  Ä?  HA  xA  Ä?  XA  xA  Ä?  hA  xA  Ä?  xA  xA  Ä?  ÑA  xA  Ä?  åA  xA  Ä?  îA  xA  Ä?  úA  xA  Ä?  §A  xA  Ä?  ¨A  xA  Ä?  ¥A  xA  Ä?  ºA  xA  Ä?  ƒA  xA  Ä?  ƒ¡  ÑA  Ä?  º¡  ÑA  Ä?  ¥¡  ÑA  Ä?  ¨¡  ÑA  Ä?  §¡  ÑA  Ä?  ú¡  ÑA  Ä?  î¡  ÑA  Ä?  å¡  ÑA  Ä?  Ñ¡  ÑA  Ä?  x¡  ÑA  Ä?  h¡  ÑA  Ä?  X¡  ÑA  Ä?  H¡  ÑA  Ä?  8¡  ÑA  Ä?  (¡  ÑA  Ä?  ¡  ÑA  Ä?  ¡  ÑA  Ä?  ¿  ÑA  Ä?  –¿  ÑA  Ä?  ∞¿  ÑA  Ä?  ê¿  ÑA  Ä?  `¿  ÑA  Ä?   ¿  ÑA  Ä?  ¿ø  ÑA  Ä?   ø  ÑA  Ä?   ?  ÑA  Ä?  ¿?  ÑA  Ä?   @  ÑA  Ä?  `@  ÑA  Ä?  ê@  ÑA  Ä?  ∞@  ÑA  Ä?  –@  ÑA  Ä?  @  ÑA  Ä?  A  ÑA  Ä?  A  ÑA  Ä?  (A  ÑA  Ä?  8A  ÑA  Ä?  HA  ÑA  Ä?  XA  ÑA  Ä?  hA  ÑA  Ä?  xA  ÑA  Ä?  ÑA  ÑA  Ä?  åA  ÑA  Ä?  îA  ÑA  Ä?  úA  ÑA  Ä?  §A  ÑA  Ä?  ¨A  ÑA  Ä?  ¥A  ÑA  Ä?  ºA  ÑA  Ä?  ƒA  ÑA  Ä?  ƒ¡  åA  Ä?  º¡  åA  Ä?  ¥¡  åA  Ä?  ¨¡  åA  Ä?  §¡  åA  Ä?  ú¡  åA  Ä?  î¡  åA  Ä?  å¡  åA  Ä?  Ñ¡  åA  Ä?  x¡  åA  Ä?  h¡  åA  Ä?  X¡  åA  Ä?  H¡  åA  Ä?  8¡  åA  Ä?  (¡  åA  Ä?  ¡  åA  Ä?  ¡  åA  Ä?  ¿  åA  Ä?  –¿  åA  Ä?  ∞¿  åA  Ä?  ê¿  åA  Ä?  `¿  åA  Ä?   ¿  åA  Ä?  ¿ø  åA  Ä?   ø  åA  Ä?   ?  åA  Ä?  ¿?  åA  Ä?   @  åA  Ä?  `@  åA  Ä?  ê@  åA  Ä?  ∞@  åA  Ä?  –@  åA  Ä?  @  åA  Ä?  A  åA  Ä?  A  åA  Ä?  (A  åA  Ä?  8A  åA  Ä?  HA  åA  Ä?  XA  åA  Ä?  hA  åA  Ä?  xA  åA  Ä?  ÑA  åA  Ä?  åA  åA  Ä?  îA  åA  Ä?  úA  åA  Ä?  §A  åA  Ä?  ¨A  åA  Ä?  ¥A  åA  Ä?  ºA  åA  Ä?  ƒA  åA  Ä?  ƒ¡  îA  Ä?  º¡  îA  Ä?  ¥¡  îA  Ä?  ¨¡  îA  Ä?  §¡  îA  Ä?  ú¡  îA  Ä?  î¡  îA  Ä?  å¡  îA  Ä?  Ñ¡  îA  Ä?  x¡  îA  Ä?  h¡  îA  Ä?  X¡  îA  Ä?  H¡  îA  Ä?  8¡  îA  Ä?  (¡  îA  Ä?  ¡  îA  Ä?  ¡  îA  Ä?  ¿  îA  Ä?  –¿  îA  Ä?  ∞¿  îA  Ä?  ê¿  îA  Ä?  `¿  îA  Ä?   ¿  îA  Ä?  ¿ø  îA  Ä?   ø  îA  Ä?   ?  îA  Ä?  ¿?  îA  Ä?   @  îA  Ä?  `@  îA  Ä?  ê@  îA  Ä?  ∞@  îA  Ä?  –@  îA  Ä?  @  îA  Ä?  A  îA  Ä?  A  îA  Ä?  (A  îA  Ä?  8A  îA  Ä?  HA  îA  Ä?  XA  îA  Ä?  hA  îA  Ä?  xA  îA  Ä?  ÑA  îA  Ä?  åA  îA  Ä?  îA  îA  Ä?  úA  îA  Ä?  §A  îA  Ä?  ¨A  îA  Ä?  ¥A  îA  Ä?  ºA  îA  Ä?  ƒA  îA  Ä?  ƒ¡  úA  Ä?  º¡  úA  Ä?  ¥¡  úA  Ä?  ¨¡  úA  Ä?  §¡  úA  Ä?  ú¡  úA  Ä?  î¡  úA  Ä?  å¡  úA  Ä?  Ñ¡  úA  Ä?  x¡  úA  Ä?  h¡  úA  Ä?  X¡  úA  Ä?  H¡  úA  Ä?  8¡  úA  Ä?  (¡  úA  Ä?  ¡  úA  Ä?  ¡  úA  Ä?  ¿  úA  Ä?  –¿  úA  Ä?  ∞¿  úA  Ä?  ê¿  úA  Ä?  `¿  úA  Ä?   ¿  úA  Ä?  ¿ø  úA  Ä?   ø  úA  Ä?   ?  úA  Ä?  ¿?  úA  Ä?   @  úA  Ä?  `@  úA  Ä?  ê@  úA  Ä?  ∞@  úA  Ä?  –@  úA  Ä?  @  úA  Ä?  A  úA  Ä?  A  úA  Ä?  (A  úA  Ä?  8A  úA  Ä?  HA  úA  Ä?  XA  úA  Ä?  hA  úA  Ä?  xA  úA  Ä?  ÑA  úA  Ä?  åA  úA  Ä?  îA  úA  Ä?  úA  úA  Ä?  §A  úA  Ä?  ¨A  úA  Ä?  ¥A  úA  Ä?  ºA  úA  Ä?  ƒA  úA  Ä?  ƒ¡  §A  Ä?  º¡  §A  Ä?  ¥¡  §A  Ä?  ¨¡  §A  Ä?  §¡  §A  Ä?  ú¡  §A  Ä?  î¡  §A  Ä?  å¡  §A  Ä?  Ñ¡  §A  Ä?  x¡  §A  Ä?  h¡  §A  Ä?  X¡  §A  Ä?  H¡  §A  Ä?  8¡  §A  Ä?  (¡  §A  Ä?  ¡  §A  Ä?  ¡  §A  Ä?  ¿  §A  Ä?  –¿  §A  Ä?  ∞¿  §A  Ä?  ê¿  §A  Ä?  `¿  §A  Ä?   ¿  §A  Ä?  ¿ø  §A  Ä?   ø  §A  Ä?   ?  §A  Ä?  ¿?  §A  Ä?   @  §A  Ä?  `@  §A  Ä?  ê@  §A  Ä?  ∞@  §A  Ä?  –@  §A  Ä?  @  §A  Ä?  A  §A  Ä?  A  §A  Ä?  (A  §A  Ä?  8A  §A  Ä?  HA  §A  Ä?  XA  §A  Ä?  hA  §A  Ä?  xA  §A  Ä?  ÑA  §A  Ä?  åA  §A  Ä?  îA  §A  Ä?  úA  §A  Ä?  §A  §A  Ä?  ¨A  §A  Ä?  ¥A  §A  Ä?  ºA  §A  Ä?  ƒA  §A  Ä?  ƒ¡  ¨A  Ä?  º¡  ¨A  Ä?  ¥¡  ¨A  Ä?  ¨¡  ¨A  Ä?  §¡  ¨A  Ä?  ú¡  ¨A  Ä?  î¡  ¨A  Ä?  å¡  ¨A  Ä?  Ñ¡  ¨A  Ä?  x¡  ¨A  Ä?  h¡  ¨A  Ä?  X¡  ¨A  Ä?  H¡  ¨A  Ä?  8¡  ¨A  Ä?  (¡  ¨A  Ä?  ¡  ¨A  Ä?  ¡  ¨A  Ä?  ¿  ¨A  Ä?  –¿  ¨A  Ä?  ∞¿  ¨A  Ä?  ê¿  ¨A  Ä?  `¿  ¨A  Ä?   ¿  ¨A  Ä?  ¿ø  ¨A  Ä?   ø  ¨A  Ä?   ?  ¨A  Ä?  ¿?  ¨A  Ä?   @  ¨A  Ä?  `@  ¨A  Ä?  ê@  ¨A  Ä?  ∞@  ¨A  Ä?  –@  ¨A  Ä?  @  ¨A  Ä?  A  ¨A  Ä?  A  ¨A  Ä?  (A  ¨A  Ä?  8A  ¨A  Ä?  HA  ¨A  Ä?  XA  ¨A  Ä?  hA  ¨A  Ä?  xA  ¨A  Ä?  ÑA  ¨A  Ä?  åA  ¨A  Ä?  îA  ¨A  Ä?  úA  ¨A  Ä?  §A  ¨A  Ä?  ¨A  ¨A  Ä?  ¥A  ¨A  Ä?  ºA  ¨A  Ä?  ƒA  ¨A  Ä?  ƒ¡  ¥A  Ä?  º¡  ¥A  Ä?  ¥¡  ¥A  Ä?  ¨¡  ¥A  Ä?  §¡  ¥A  Ä?  ú¡  ¥A  Ä?  î¡  ¥A  Ä?  å¡  ¥A  Ä?  Ñ¡  ¥A  Ä?  x¡  ¥A  Ä?  h¡  ¥A  Ä?  X¡  ¥A  Ä?  H¡  ¥A  Ä?  8¡  ¥A  Ä?  (¡  ¥A  Ä?  ¡  ¥A  Ä?  ¡  ¥A  Ä?  ¿  ¥A  Ä?  –¿  ¥A  Ä?  ∞¿  ¥A  Ä?  ê¿  ¥A  Ä?  `¿  ¥A  Ä?   ¿  ¥A  Ä?  ¿ø  ¥A  Ä?   ø  ¥A  Ä?   ?  ¥A  Ä?  ¿?  ¥A  Ä?   @  ¥A  Ä?  `@  ¥A  Ä?  ê@  ¥A  Ä?  ∞@  ¥A  Ä?  –@  ¥A  Ä?  @  ¥A  Ä?  A  ¥A  Ä?  A  ¥A  Ä?  (A  ¥A  Ä?  8A  ¥A  Ä?  HA  ¥A  Ä?  XA  ¥A  Ä?  hA  ¥A  Ä?  xA  ¥A  Ä?  ÑA  ¥A  Ä?  åA  ¥A  Ä?  îA  ¥A  Ä?  úA  ¥A  Ä?  §A  ¥A  Ä?  ¨A  ¥A  Ä?  ¥A  ¥A  Ä?  ºA  ¥A  Ä?  ƒA  ¥A  Ä?  ƒ¡  ºA  Ä?  º¡  ºA  Ä?  ¥¡  ºA  Ä?  ¨¡  ºA  Ä?  §¡  ºA  Ä?  ú¡  ºA  Ä?  î¡  ºA  Ä?  å¡  ºA  Ä?  Ñ¡  ºA  Ä?  x¡  ºA  Ä?  h¡  ºA  Ä?  X¡  ºA  Ä?  H¡  ºA  Ä?  8¡  ºA  Ä?  (¡  ºA  Ä?  ¡  ºA  Ä?  ¡  ºA  Ä?  ¿  ºA  Ä?  –¿  ºA  Ä?  ∞¿  ºA  Ä?  ê¿  ºA  Ä?  `¿  ºA  Ä?   ¿  ºA  Ä?  ¿ø  ºA  Ä?   ø  ºA  Ä?   ?  ºA  Ä?  ¿?  ºA  Ä?   @  ºA  Ä?  `@  ºA  Ä?  ê@  ºA  Ä?  ∞@  ºA  Ä?  –@  ºA  Ä?  @  ºA  Ä?  A  ºA  Ä?  A  ºA  Ä?  (A  ºA  Ä?  8A  ºA  Ä?  HA  ºA  Ä?  XA  ºA  Ä?  hA  ºA  Ä?  xA  ºA  Ä?  ÑA  ºA  Ä?  åA  ºA  Ä?  îA  ºA  Ä?  úA  ºA  Ä?  §A  ºA  Ä?  ¨A  ºA  Ä?  ¥A  ºA  Ä?  ºA  ºA  Ä?  ƒA  ºA  Ä?  ƒ¡  ƒA  Ä?  º¡  ƒA  Ä?  ¥¡  ƒA  Ä?  ¨¡  ƒA  Ä?  §¡  ƒA  Ä?  ú¡  ƒA  Ä?  î¡  ƒA  Ä?  å¡  ƒA  Ä?  Ñ¡  ƒA  Ä?  x¡  ƒA  Ä?  h¡  ƒA  Ä?  X¡  ƒA  Ä?  H¡  ƒA  Ä?  8¡  ƒA  Ä?  (¡  ƒA  Ä?  ¡  ƒA  Ä?  ¡  ƒA  Ä?  ¿  ƒA  Ä?  –¿  ƒA  Ä?  ∞¿  ƒA  Ä?  ê¿  ƒA  Ä?  `¿  ƒA  Ä?   ¿  ƒA  Ä?  ¿ø  ƒA  Ä?   ø  ƒA  Ä?   ?  ƒA  Ä?  ¿?  ƒA  Ä?   @  ƒA  Ä?  `@  ƒA  Ä?  ê@  ƒA  Ä?  ∞@  ƒA  Ä?  –@  ƒA  Ä?  @  ƒA  Ä?  A  ƒA  Ä?  A  ƒA  Ä?  (A  ƒA  Ä?  8A  ƒA  Ä?  HA  ƒA  Ä?  XA  ƒA  Ä?  hA  ƒA  Ä?  xA  ƒA  Ä?  ÑA  ƒA  Ä?  åA  ƒA  Ä?  îA  ƒA  Ä?  úA  ƒA  Ä?  §A  ƒA  Ä?  ¨A  ƒA  Ä?  ¥A  ƒA  Ä?  ºA  ƒA  Ä?  ƒA  ƒA  Ä?Z
+img
+
+Ä
+2
+2Z
+angle
+ b
+503
+
+Ä
+2
+2b
+grid
+
+
+2
+2
+j
+onnx::Mul_4
+ j
+onnx::Sub_6
+ j
+onnx::Div_9
+ j
+onnx::Mul_15
+ j
+onnx::Div_17
+ j
+onnx::Sub_20
+ j
+onnx::Neg_21
+ j
+onnx::Mul_30
+ j
+onnx::Div_32
+ j
+onnx::Unsqueeze_36
+ j
+onnx::Unsqueeze_37
+ j
+onnx::Concat_42
+
+
+j
+onnx::Concat_44
+
+
+j
+onnx::Concat_48
+
+
+j
+onnx::Concat_50
+
+
+j
+onnx::Gather_53
+
+
+j
+onnx::Add_55
+ j
+onnx::Mul_57
+ j
+onnx::Add_59
+ j
+onnx::Mul_61
+ j
+onnx::Add_63
+ j
+onnx::Add_64
+ j
+onnx::Expand_65
+ j
+onnx::Reshape_84
+
+
+j
+onnx::Gather_86
+
+
+j
+onnx::Gather_109
+
+
+j
+onnx::Add_111
+ j
+onnx::Mul_113
+ j
+onnx::Add_115
+ j
+onnx::Mul_117
+ j
+onnx::Add_119
+ j
+onnx::Add_120
+ j
+onnx::Expand_121
+ j
+onnx::Reshape_140
+
+
+j
+onnx::Gather_142
+
+
+j
+onnx::Gather_165
+
+
+j
+onnx::Add_167
+ j
+onnx::Expand_169
+ j
+onnx::Reshape_188
+
+
+j
+onnx::Gather_190
+
+
+j
+onnx::Gather_213
+
+
+j
+onnx::Add_215
+ j
+onnx::Expand_217
+ j
+onnx::Reshape_236
+
+
+j
+onnx::Gather_238
+
+
+j
+onnx::Reshape_261
+
+
+j)
+onnx::Transpose_265
+
+
+
+j#
+onnx::Div_472
+
+
+
+j&
+onnx::MatMul_474
+
+
+
+j(
+onnx::Reshape_486
+
+
+ƒ
+j 
+img.1
+
+
+Ä
+2
+2j,
+onnx::Squeeze_501
+
+
+Ä
+2
+2B
+ 

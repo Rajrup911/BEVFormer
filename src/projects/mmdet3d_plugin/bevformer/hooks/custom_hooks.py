@@ -11,3 +11,4 @@ class TransferWeight(Hook):
     def after_train_iter(self, runner):
         if self.every_n_inner_iters(runner, self.every_n_inters):
             runner.eval_model.load_state_dict(runner.model.state_dict())
+

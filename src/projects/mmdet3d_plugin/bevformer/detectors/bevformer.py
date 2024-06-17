@@ -12,6 +12,8 @@ from mmdet3d.models.detectors.mvx_two_stage import MVXTwoStageDetector
 from projects.mmdet3d_plugin.models.utils.grid_mask import GridMask
 import time
 import copy
+import onnxruntime as ort
+import onnx
 import numpy as np
 import mmdet3d
 from projects.mmdet3d_plugin.models.utils.bricks import run_time
@@ -40,7 +42,10 @@ class BEVFormer(MVXTwoStageDetector):
                  train_cfg=None,
                  test_cfg=None,
                  pretrained=None,
-                 video_test_mode=False
+                 video_test_mode=False,
+                 onnx_export=False,
+                 onnx_runtime=False,
+                 export_path=None
                  ):
 
         super(BEVFormer,
@@ -53,6 +58,9 @@ class BEVFormer(MVXTwoStageDetector):
             True, True, rotate=1, offset=False, ratio=0.5, mode=1, prob=0.7)
         self.use_grid_mask = use_grid_mask
         self.fp16_enabled = False
+        self.onnx_runtime = onnx_runtime
+        self.onnx_export = onnx_export
+        self.export_path = export_path
 
         # temporal
         self.video_test_mode = video_test_mode
@@ -62,9 +70,12 @@ class BEVFormer(MVXTwoStageDetector):
             'prev_pos': 0,
             'prev_angle': 0,
         }
+        if onnx_runtime:
+            EP_list = ['CUDAExecutionProvider']
+            self.sess_prev_bev = ort.InferenceSession(self.export_path + "bfv_prev_bev-SIM.onnx", providers=EP_list)
+            self.sess_wo_prev_bev = ort.InferenceSession(self.export_path + "bfv_wo_prev_bev-SIM.onnx", providers=EP_list)
 
-
-    def extract_img_feat(self, img, img_metas, len_queue=None):
+    def extract_img_feat(self, img, img_metas=None, len_queue=None):
         """Extract features of images."""
         B = img.size(0)
         if img is not None:
@@ -140,8 +151,8 @@ class BEVFormer(MVXTwoStageDetector):
         dummy_metas = None
         return self.forward_test(img=img, img_metas=[[dummy_metas]])
 
-    def forward(self, img_metas, img, return_loss=True):
-        '''Calls either forward_train or forward_test depending on whether
+    def forward(self, *args, return_loss=True, **kwargs):
+        """Calls either forward_train or forward_test depending on whether
         return_loss=True.
         Note this setting will change the expected inputs. When
         `return_loss=True`, img and img_metas are single-nested (i.e.
@@ -149,11 +160,24 @@ class BEVFormer(MVXTwoStageDetector):
         img_metas should be double nested (i.e.  list[torch.Tensor],
         list[list[dict]]), with the outer list indicating test time
         augmentations.
-        if return_loss:
+        """
+
+        if self.onnx_export: #For Exporting Model to Onnx
+            if len(args) == 3:
+                img, can_bus, lidar2img = args
+                lidar2img = lidar2img.reshape(1, 6, 4, 4)[:, :6]
+                img_metas = [{'can_bus': can_bus, 'lidar2img': lidar2img}]
+                return self.forward_export(img = img, prev_bev = None, img_metas = img_metas, onnx_export = self.onnx_export, **kwargs)
+            elif len(args) == 4:
+                img, can_bus, lidar2img, prev_bev = args
+                lidar2img = lidar2img.reshape(1, 6, 4, 4)[:, :6]
+                img_metas = [{'can_bus': can_bus, 'lidar2img': lidar2img}]
+                return self.forward_export(img = img, prev_bev = prev_bev, img_metas = img_metas, onnx_export = self.onnx_export, **kwargs)
+            
+        elif return_loss:
             return self.forward_train(**kwargs)
         else:
-        '''
-        return self.forward_test(img_metas, img)
+            return self.forward_test(**kwargs)
     
     def obtain_history_bev(self, imgs_queue, img_metas_list):
         """Obtain history BEV features iteratively. To save GPU memory, gradients are not calculated.
@@ -233,7 +257,7 @@ class BEVFormer(MVXTwoStageDetector):
         losses.update(losses_pts)
         return losses
 
-    def forward_test(self, img_metas, img=None):
+    def forward_test(self, img_metas, img=None, **kwargs):
         for var, name in [(img_metas, 'img_metas')]:
             if not isinstance(var, list):
                 raise TypeError('{} must be a list, but got {}'.format(
@@ -250,9 +274,10 @@ class BEVFormer(MVXTwoStageDetector):
         if not self.video_test_mode:
             self.prev_frame_info['prev_bev'] = None
 
-        # Get the delta of ego position and angle between two timestamps.
-        #tmp_pos = copy.deepcopy(img_metas[0][0]['can_bus'][:3])
-        #tmp_angle = copy.deepcopy(img_metas[0][0]['can_bus'][-1])
+        # Get the delta of ego position and angle between two timestamps. 
+        tmp_pos = copy.deepcopy(img_metas[0][0]['can_bus'][:3])
+        tmp_angle = copy.deepcopy(img_metas[0][0]['can_bus'][-1])
+        
         if self.prev_frame_info['prev_bev'] is not None:
             img_metas[0][0]['can_bus'][:3] -= self.prev_frame_info['prev_pos']
             img_metas[0][0]['can_bus'][-1] -= self.prev_frame_info['prev_angle']
@@ -261,10 +286,10 @@ class BEVFormer(MVXTwoStageDetector):
             img_metas[0][0]['can_bus'][:3] = 0
 
         new_prev_bev, bbox_results = self.simple_test(
-            img_metas[0], img[0], prev_bev=self.prev_frame_info['prev_bev'])
+            img_metas[0], img[0], prev_bev=self.prev_frame_info['prev_bev'], **kwargs)
         # During inference, we save the BEV features and ego motion of each timestamp.
-        #self.prev_frame_info['prev_pos'] = tmp_pos
-        #self.prev_frame_info['prev_angle'] = tmp_angle
+        self.prev_frame_info['prev_pos'] = tmp_pos
+        self.prev_frame_info['prev_angle'] = tmp_angle
         self.prev_frame_info['prev_bev'] = new_prev_bev
         return bbox_results
 
@@ -285,8 +310,48 @@ class BEVFormer(MVXTwoStageDetector):
         img_feats = self.extract_feat(img=img, img_metas=img_metas)
 
         bbox_list = [dict() for i in range(len(img_metas))]
-        new_prev_bev, bbox_pts = self.simple_test_pts(
-            img_feats, img_metas, prev_bev, rescale=rescale)
+
+        if self.onnx_runtime:
+            #For Onnx Runtime Inference
+            new_prev_bev, bbox_pts = self.simple_test_pts_export(
+                img, img_metas, prev_bev, rescale=rescale)
+        else:
+            new_prev_bev, bbox_pts = self.simple_test_pts(
+                img_feats, img_metas, prev_bev, rescale=rescale)
         for result_dict, pts_bbox in zip(bbox_list, bbox_pts):
             result_dict['pts_bbox'] = pts_bbox
         return new_prev_bev, bbox_list
+
+    def forward_export(self, img, prev_bev=None, img_metas=None, onnx_export=False):
+        #For generating outputs while onnx export
+        img_feats = self.extract_feat(img=img[0])
+        outs = self.pts_bbox_head(img_feats, img_metas=img_metas, prev_bev=prev_bev, onnx_export=onnx_export)
+        
+        return outs
+        
+    def simple_test_pts_export(self, x, img_metas, prev_bev=None, rescale=False): #mcw
+        """Test function for Onnx Runtime"""
+        x = x.unsqueeze(0).unsqueeze(0)
+
+        if prev_bev != None:
+            inputs = {'img': x.cpu().numpy(), 'can_bus': img_metas[0]['can_bus'].astype(np.float32), 'lidar2img': img_metas[0]['lidar2img'], 'prev_bev': prev_bev.cpu().numpy()}
+            output = self.sess_prev_bev.run(None, inputs)
+        else:
+            inputs = {'img': x.cpu().numpy(), 'can_bus': img_metas[0]['can_bus'].astype(np.float32), 'lidar2img': img_metas[0]['lidar2img']}
+            output = self.sess_wo_prev_bev.run(None, inputs)
+            
+        outs = {
+            'bev_embed': torch.Tensor(output[0]),
+            'all_cls_scores': torch.Tensor(output[1]),
+            'all_bbox_preds': torch.Tensor(output[2]),
+            'enc_cls_scores': None,
+            'enc_bbox_preds': None,
+        }
+
+        bbox_list = self.pts_bbox_head.get_bboxes(
+            outs, img_metas)
+        bbox_results = [
+            bbox3d2result(bboxes, scores, labels)
+            for bboxes, scores, labels in bbox_list
+        ]
+        return outs['bev_embed'], bbox_results
